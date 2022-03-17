@@ -26,7 +26,7 @@ function style_016_RAG_align_and_grad_318_0() {
     weight: 1.0,
     fill: true,
     fillopacity: 0.6,
-    fillColor: 'rgba(133,182,111,1.0)',
+    fillColor: 'rgba(145, 82, 46, 1.0)',
     interactive: true,
   }
 }
@@ -35,11 +35,11 @@ function style_016_RAG_align_and_grad_318_0() {
         map.getPane('pane_1164I_010_PRJCT_DWGS_64_RAG').style.zIndex = 53;
         map.getPane('pane_1164I_010_PRJCT_DWGS_64_RAG').style['mix-blend-mode'] = 'normal';
 
-        var layer_1164I_010_PRJCT_DWGS_64_R = new L.geoJson(layer_filter('PLAN_BOUNDARY_RAG', json_1164I_010_PRJCT_DWGS_64), {
+        var layer_1164I_010_PRJCT_DWGS_64_RAG = new L.geoJson(layer_filter('PLAN_BOUNDARY_RAG', json_1164I_010_PRJCT_DWGS_64), {
             attribution: '',
             interactive: true,
-            dataVar: 'json_1164I_010_PRJCT_DWGS_64_R',
-            layerName: 'layer_1164I_010_PRJCT_DWGS_64_R',
+            dataVar: 'json_1164I_010_PRJCT_DWGS_64_RAG',
+            layerName: 'layer_1164I_010_PRJCT_DWGS_64_RAG',
             pane: 'pane_1164I_010_PRJCT_DWGS_64_RAG',
             onEachFeature: pop_016_RAG_align_and_grad_318,
             style: style_1164I_010_PRJCT_DWGS_64_0,
@@ -60,12 +60,12 @@ function RAG_016_toggle() {
       style: style_016_RAG_align_and_grad_318_0,
     });
     
-        bounds_group.addLayer(layer_1164I_010_PRJCT_DWGS_64_R);
-        map.addLayer(layer_1164I_010_PRJCT_DWGS_64_R);
+        bounds_group.addLayer(layer_1164I_010_PRJCT_DWGS_64_RAG);
+        map.addLayer(layer_1164I_010_PRJCT_DWGS_64_RAG);
 
   } else {
   
-    map.removeLayer(layer_1164I_010_PRJCT_DWGS_64_R);
+    map.removeLayer(layer_1164I_010_PRJCT_DWGS_64_RAG);
     
   }
 

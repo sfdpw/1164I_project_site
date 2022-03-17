@@ -26,7 +26,7 @@ function style_012_SW_sewer_318_0() {
     weight: 1.0,
     fill: true,
     fillopacity: 0.6,
-    fillColor: 'rgba(133,182,111,1.0)',
+    fillColor: 'rgba(133, 182, 111, 1.0)',
     interactive: true,
   }
 }

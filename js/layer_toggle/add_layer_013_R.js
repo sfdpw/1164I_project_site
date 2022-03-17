@@ -26,7 +26,7 @@ function style_013_R_flatwork_318_0() {
     weight: 1.0,
     fill: true,
     fillopacity: 0.6,
-    fillColor: 'rgba(133,182,111,1.0)',
+    fillColor: 'rgba(199, 112, 135, 1.0)',
     interactive: true,
   }
 }
