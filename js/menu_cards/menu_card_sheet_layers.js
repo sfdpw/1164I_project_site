@@ -48,6 +48,16 @@ document.getElementById("map_master_menu").innerHTML +=
                 </tr>\
                 <tr>\
                   <td>\
+                    <input type="checkbox" id="016_RAG_checkbox" onchange="RAG_016_toggle()">\
+                  </td>\
+                  <td>\
+                    <img src="legend/1164I_010_PRJCT_DWGS_64_PLANBOUNDARYRAG1.png" width="13" height="13"\
+                         alt="Layer Symbol - RAG - Alignment and Grading"/>\
+                    <label class="layer_label" for="016_RAG_checkbox">RAG - Alignment and Grading</label>\
+                  </td>\
+                </tr>\
+                <tr>\
+                  <td>\
                     <input type="checkbox" id="014_CR_checkbox" onchange="CR_014_toggle()">\
                   </td>\
                   <td>\

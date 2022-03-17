@@ -31,25 +31,25 @@ function style_014_CR_curb_ramps_318_0() {
   }
 }
 
-        map.createPane('pane_2977J_010_PRJCT_DWGS_18_CR');
-        map.getPane('pane_2977J_010_PRJCT_DWGS_18_CR').style.zIndex = 54;
-        map.getPane('pane_2977J_010_PRJCT_DWGS_18_CR').style['mix-blend-mode'] = 'normal';
+        map.createPane('pane_1164I_010_PRJCT_DWGS_64_CR');
+        map.getPane('pane_1164I_010_PRJCT_DWGS_64_CR').style.zIndex = 54;
+        map.getPane('pane_1164I_010_PRJCT_DWGS_64_CR').style['mix-blend-mode'] = 'normal';
 
-        var layer_2977J_010_PRJCT_DWGS_18_CR = new L.geoJson(layer_filter('PLAN_BOUNDARY_CR', json_2977J_010_PRJCT_DWGS_18), {
+        var layer_1164I_010_PRJCT_DWGS_64_CR = new L.geoJson(layer_filter('PLAN_BOUNDARY_CR', json_1164I_010_PRJCT_DWGS_64), {
             attribution: '',
             interactive: true,
-            dataVar: 'json_2977J_010_PRJCT_DWGS_18_CR',
-            layerName: 'layer_2977J_010_PRJCT_DWGS_18_CR',
-            pane: 'pane_2977J_010_PRJCT_DWGS_18_CR',
+            dataVar: 'json_1164I_010_PRJCT_DWGS_64_CR',
+            layerName: 'layer_1164I_010_PRJCT_DWGS_64_CR',
+            pane: 'pane_1164I_010_PRJCT_DWGS_64_CR',
             onEachFeature: pop_014_CR_curb_ramps_318,
-            style: style_2977J_010_PRJCT_DWGS_18_0,
+            style: style_1164I_010_PRJCT_DWGS_64_0,
         });
         
 function CR_014_toggle() {
 
   if (document.getElementById("014_CR_checkbox").checked) {
 
-    layer_014_CR_curb_ramps_318 = new L.geoJson(layer_filter('PLAN_BOUNDARY_CR', json_2977J_010_PRJCT_DWGS_18), {
+    layer_014_CR_curb_ramps_318 = new L.geoJson(layer_filter('PLAN_BOUNDARY_CR', json_1164I_010_PRJCT_DWGS_64), {
       attribution: '',
       interactive: true,
       dataVar: 'json_014_CR_curb_ramps_318',
@@ -59,12 +59,12 @@ function CR_014_toggle() {
       style: style_014_CR_curb_ramps_318_0,
     });
     
-        bounds_group.addLayer(layer_2977J_010_PRJCT_DWGS_18_CR);
-        map.addLayer(layer_2977J_010_PRJCT_DWGS_18_CR);
+        bounds_group.addLayer(layer_1164I_010_PRJCT_DWGS_64_CR);
+        map.addLayer(layer_1164I_010_PRJCT_DWGS_64_CR);
 
   } else {
   
-    map.removeLayer(layer_2977J_010_PRJCT_DWGS_18_CR);
+    map.removeLayer(layer_1164I_010_PRJCT_DWGS_64_CR);
     
   }
 

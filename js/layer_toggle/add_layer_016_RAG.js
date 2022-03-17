@@ -1,4 +1,4 @@
-function pop_013_R_flatwork_318(feature, layer) {
+function pop_016_RAG_align_and_grad_318(feature, layer) {
   layer.on({
     mouseout: function(e) {
       for (i in e.target._eventParents) {
@@ -15,9 +15,9 @@ layer.bindPopup(popupContent, {
   });
 }
 
-function style_013_R_flatwork_318_0() {
+function style_016_RAG_align_and_grad_318_0() {
   return {
-    pane: 'pane_013_R_flatwork_318',
+    pane: 'pane_016_RAG_align_and_grad_318',
     opacity: 1,
     color: 'rgba(35,35,35,1.0)',
     dashArray: '',
@@ -31,33 +31,33 @@ function style_013_R_flatwork_318_0() {
   }
 }
 
-        map.createPane('pane_1164I_010_PRJCT_DWGS_64_R');
-        map.getPane('pane_1164I_010_PRJCT_DWGS_64_R').style.zIndex = 53;
-        map.getPane('pane_1164I_010_PRJCT_DWGS_64_R').style['mix-blend-mode'] = 'normal';
+        map.createPane('pane_1164I_010_PRJCT_DWGS_64_RAG');
+        map.getPane('pane_1164I_010_PRJCT_DWGS_64_RAG').style.zIndex = 53;
+        map.getPane('pane_1164I_010_PRJCT_DWGS_64_RAG').style['mix-blend-mode'] = 'normal';
 
-        var layer_1164I_010_PRJCT_DWGS_64_R = new L.geoJson(layer_filter('PLAN_BOUNDARY_R', json_1164I_010_PRJCT_DWGS_64), {
+        var layer_1164I_010_PRJCT_DWGS_64_R = new L.geoJson(layer_filter('PLAN_BOUNDARY_RAG', json_1164I_010_PRJCT_DWGS_64), {
             attribution: '',
             interactive: true,
             dataVar: 'json_1164I_010_PRJCT_DWGS_64_R',
             layerName: 'layer_1164I_010_PRJCT_DWGS_64_R',
-            pane: 'pane_1164I_010_PRJCT_DWGS_64_R',
-            onEachFeature: pop_013_R_flatwork_318,
+            pane: 'pane_1164I_010_PRJCT_DWGS_64_RAG',
+            onEachFeature: pop_016_RAG_align_and_grad_318,
             style: style_1164I_010_PRJCT_DWGS_64_0,
         });
         
 
-function R_013_toggle() {
+function RAG_016_toggle() {
 
-  if (document.getElementById("013_R_checkbox").checked) {
+  if (document.getElementById("016_RAG_checkbox").checked) {
 
-    layer_013_R_flatwork_318 = new L.geoJson(layer_filter('PLAN_BOUNDARY_R', json_1164I_010_PRJCT_DWGS_64), {
+    layer_016_RAG_align_and_grad_318 = new L.geoJson(layer_filter('PLAN_BOUNDARY_RAG', json_1164I_010_PRJCT_DWGS_64), {
       attribution: '',
       interactive: true,
-      dataVar: 'json_013_R_flatwork_318',
-      layerName: 'layer_013_R_flatwork_318',
-      pane: 'pane_013_R_flatwork_318',
-      onEachFeature: pop_013_R_flatwork_318,
-      style: style_013_R_flatwork_318_0,
+      dataVar: 'json_016_RAG_align_and_grad_318',
+      layerName: 'layer_016_RAG_align_and_grad_318',
+      pane: 'pane_016_RAG_align_and_grad_318',
+      onEachFeature: pop_016_RAG_align_and_grad_318,
+      style: style_016_RAG_align_and_grad_318_0,
     });
     
         bounds_group.addLayer(layer_1164I_010_PRJCT_DWGS_64_R);
