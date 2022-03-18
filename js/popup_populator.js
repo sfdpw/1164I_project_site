@@ -78,7 +78,6 @@ function popup_sheet_entry_creator(popup_args = null)
                 }
 
 
-
             } else {
                 if (popup_args[ii + 2] != null) {
                     output_string = output_string.concat(file_desc);
