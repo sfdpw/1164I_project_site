@@ -26,7 +26,7 @@ function style_016_RAG_align_and_grad_318_0() {
     weight: 1.0,
     fill: true,
     fillopacity: 0.6,
-    fillColor: 'rgba(145, 82, 46, 1.0)',
+    fillColor: 'rgba(145,82,46,1.0)',
     interactive: true,
   }
 }
