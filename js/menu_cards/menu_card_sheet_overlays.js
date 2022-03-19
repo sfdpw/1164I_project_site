@@ -20,7 +20,7 @@ for (var ii = 0; ii < layer_filter('PLAN_BOUNDARY_R', json_1164I_010_PRJCT_DWGS_
 }
 
 for (var ii = 0; ii < layer_filter('PLAN_BOUNDARY_RAG', json_1164I_010_PRJCT_DWGS_64)['features'].length; ii++) {
-  overlay_menu_subsection_content_R += layer_filter('PLAN_BOUNDARY_RAG',
+  overlay_menu_subsection_content_RAG += layer_filter('PLAN_BOUNDARY_RAG',
   json_1164I_010_PRJCT_DWGS_64)['features'][ii].properties.SHEET + '<br>';
 }
 
@@ -113,7 +113,7 @@ var menu_card_sheet_overlay_content =
                  <button class="btn btn-link collapsed" type="button"\
                          data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_RAG"\
                          aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_RAG">\
-                   <strong>R - Flatwork</strong>\
+                   <strong>RAG - Alignment and Grading</strong>\
                  </button>\
                </h2>\
              </div>\
