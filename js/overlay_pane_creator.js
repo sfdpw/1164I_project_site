@@ -45,6 +45,15 @@ var layer_1164I_dwg_U04_47 =
 bounds_group.addLayer(layer_1164I_dwg_U04_47);
 //map.addLayer(layer_1164I_dwg_U04_47);
 
+map.createPane('pane_1164I_dwg_U04_b_20');
+map.getPane('pane_1164I_dwg_U04_b_20').style.zIndex = 447;
+var img_1164I_dwg_U04_b_20 = 'data/1164I_dwg_U04_b_20.png';
+var img_bounds_1164I_dwg_U04_b_20 = [[37.74519149692107,-122.41787362973139],[37.74719636387331,-122.41420786763638]];
+var layer_1164I_dwg_U04_b_20 = 
+    new L.imageOverlay(img_1164I_dwg_U04_b_20, img_bounds_1164I_dwg_U04_b_20, {pane: 'pane_1164I_dwg_U04_b_20'});
+bounds_group.addLayer(layer_1164I_dwg_U04_b_20);
+//map.addLayer(layer_1164I_dwg_U04_b_20);
+
 map.createPane('pane_1164I_dwg_U05_a_46');
 map.getPane('pane_1164I_dwg_U05_a_46').style.zIndex = 446;
 var img_1164I_dwg_U05_a_46 = 'data/1164I_dwg_U05_a_46.png';
