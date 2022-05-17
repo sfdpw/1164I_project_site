@@ -20,6 +20,8 @@ var SW_spec_list = [
 var SFPW_R_STD = [
                    'R-G1',,'Legend and Abbreviation',
                    'R-G2',,'General Notes',
+                   'T-01',,'(E) Striping Plan',
+                   'T-02',,'(E) Striping Plan',
                    'SFPW_STD_87168',,'Planing',
                    'SFPW_STD_87169',,'Curb',
                    'SFPW_STD_87170',,'Comb. Parking Strip / Gutter',             
