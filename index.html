@@ -55,7 +55,12 @@
 
 
     <script src="data/1164I_010_PRJCT_DWGS_64.js"></script>
+    <script src="data/1164I_101_sewer_lines_0.js"></script>
+    <script src="data/1164I_101_sewer_points_1.js"></script>
     <script src="js/popup_content_return.js"></script>    
+    
+    
+    
     
     <!--<script src="js/misc_payment_functions.js"></script>     -->
     <!--<script src="data/base_sov.js"></script>-->
@@ -64,8 +69,39 @@
     <script>
        
       var master_layer_array = [];   
-                
-       //var E_pullbox_index_limits = [700, 701];
+
+      var SW_main_index_limits = [100, 110];
+      add_feature_layer('MN', 100, json_1164I_101_sewer_lines_0, '(E) to Remain', '#969696');
+      add_feature_layer('MN', 101, json_1164I_101_sewer_lines_0, 'SW-05: Install (N) 12in', '#ef3b2c');     
+      add_feature_layer('MN', 102, json_1164I_101_sewer_lines_0, 'SW-06: Install (N) 15in', '#cb181d');     
+      add_feature_layer('MN', 103, json_1164I_101_sewer_lines_0, 'SW-07: Install (N) 18in', '#a50f15');     
+      add_feature_layer('MN', 104, json_1164I_101_sewer_lines_0, 'SW-08: Install (N) 21in', '#67000d');     
+      add_feature_layer('MN', 105, json_1164I_101_sewer_lines_0, 'SW-09: Line (E) 8in', '#a1d99b');     
+      add_feature_layer('MN', 106, json_1164I_101_sewer_lines_0, 'SW-10: Line (E) 10in', '#69c360');     
+      add_feature_layer('MN', 107, json_1164I_101_sewer_lines_0, 'SW-11: Line (E) 12in', '#419a43');     
+      add_feature_layer('MN', 108, json_1164I_101_sewer_lines_0, 'SW-12: Line (E) 15in', '#2e793c');     
+      add_feature_layer('MN', 109, json_1164I_101_sewer_lines_0, 'SW-13: Line (E) 21in', '#006628');     
+      add_feature_layer('MN', 110, json_1164I_101_sewer_lines_0, 'SW-14: Plug and Fill (E)', '#1d677c');     
+      
+      var SW_clvt_index_limits = [120, 120];
+      add_feature_layer('CL', 120, json_1164I_101_sewer_lines_0, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+      
+      
+      var SW_lateral_index_limits = [140, 140];
+      add_feature_layer('LT', 140, json_1164I_101_sewer_lines_0, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+
+
+      var SW_drain_index_limits = [160, 160];
+      add_feature_layer('CB', 160, json_1164I_101_sewer_points_1, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+
+
+      var SW_MH_index_limits = [180, 180];
+      add_feature_layer('MH', 180, json_1164I_101_sewer_points_1, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+
+
+      //var SW_clvt_index_limits = [120, 123];
+      
+      
             
     </script>
 
@@ -85,8 +121,8 @@
     <div class="grid-div-accordion-menu" id="map_master_menu">
       <script src="js/menu_cards/menu_card_sheet_layers.js"></script>
       <script src="js/menu_cards/menu_card_sheet_overlays.js"></script>
-      <!-- <script src="js/menu_cards/menu_card_sewer_features.js"></script>
-      <script src="js/menu_cards/menu_card_flatwork_features.js"></script> -->
+      <script src="js/menu_cards/menu_card_sewer_features.js"></script>
+      <!-- <script src="js/menu_cards/menu_card_flatwork_features.js"></script> -->
     </div>
   </div>
       
@@ -251,12 +287,12 @@
 
 
 
-    <!-- <script src="js/layer_toggle/add_line_layer_SW_main.js"></script>
+    <script src="js/layer_toggle/add_line_layer_SW_main.js"></script>
     <script src="js/layer_toggle/add_line_layer_SW_clvt.js"></script>
     <script src="js/layer_toggle/add_line_layer_SW_lateral.js"></script>
     <script src="js/layer_toggle/add_point_layer_SW_MH.js"></script>    
     <script src="js/layer_toggle/add_point_layer_SW_drain.js"></script>      
-    <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>      
+    <!-- <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>      
     <script src="js/layer_toggle/add_point_layer_flatwork.js"></script> -->
 
 

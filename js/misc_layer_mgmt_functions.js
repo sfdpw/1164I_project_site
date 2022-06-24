@@ -123,7 +123,7 @@ function layer_card_entry_generator(layer_index)
            <input type="checkbox" id="L_' + layer_index + '" onchange="master_layer_array[' + layer_index + '].toggle()">\
              </td><td><img src="legend/1164I_L_' + layer_index + '.png" width="13" height="13"\
                          alt="Feature Symbol -' + master_layer_array[layer_index].layer_description + '"/>\
-                    <label class="layer_label" for="1164I_L_' + layer_index + '">' +
+                    <label class="layer_label" for="L_' + layer_index + '">' +
         master_layer_array[layer_index].layer_description + '</label></td></tr>';
 
     return card_entry
@@ -187,7 +187,7 @@ function feature_layer_toggle(master_checkbox_id, L_index_start, L_index_end)
 }
 
 
-function add_feature_layer(feature_group, layer_index, source_json_layer_obj, property_filters, rgba_code)
+function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba_code)
 
   {
 
@@ -207,87 +207,87 @@ function add_feature_layer(feature_group, layer_index, source_json_layer_obj, pr
 
     master_layer_array[layer_index].layer = {};
 
-    if (feature_group == 'SW_main')
+    if (type == 'MN')
     
       {
       
-        master_layer_array[layer_index].layer_description = property_filters;
+        master_layer_array[layer_index].layer_description = scope;
         master_layer_array[layer_index].toggle = 
        
-        function() {SW_main_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, property_filters, rgba_code);}
+        function() {SW_main_layer_toggle(type, layer_index, master_layer_array,
+                                         local_json_layer_obj, scope, rgba_code);}
                                                             
        }
    
-    else if (feature_group == 'SW_MH')
+    else if (type == 'MH')
     
       {
       
-       master_layer_array[layer_index].layer_description = property_filters;
+       master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_MH_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, property_filters, rgba_code);}
+         function() {SW_MH_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
        }
        
-    else if (feature_group == 'SW_clvt')
+    else if (type == 'CL')
 
       {
       
-       master_layer_array[layer_index].layer_description = property_filters;
+       master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_clvt_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, property_filters, rgba_code);}
+         function() {SW_clvt_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
 
        
-    else if (feature_group == 'SW_drain')
+    else if (type == 'CB')
 
       {
       
-       master_layer_array[layer_index].layer_description = property_filters;
+       master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_drain_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, property_filters, rgba_code);}
+         function() {SW_drain_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
  
-     else if (feature_group == 'SW_lateral')
+     else if (type == 'LT')
 
       {
       
-       master_layer_array[layer_index].layer_description = property_filters;
+       master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_lateral_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, property_filters, rgba_code);}
+         function() {SW_lateral_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
       
-     else if (feature_group == 'R_polygon')
+     //else if (type == 'R_polygon')
 
-      {
+     // {
       
-       master_layer_array[layer_index].layer_description = property_filters;
-       master_layer_array[layer_index].toggle = 
+     //  master_layer_array[layer_index].layer_description = scope;
+     //  master_layer_array[layer_index].toggle = 
        
-          function() {flatwork_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
-                                           property_filters, rgba_code);}
+     //     function() {flatwork_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
+     //                                       scope, rgba_code);}
                                                                                
-      }  
+     //  }  
       
-     else if (feature_group == 'R_point')
+     //  else if (type == 'R_point')
 
-      {
+     //  {
            
-       master_layer_array[layer_index].layer_description = property_filters;
-       master_layer_array[layer_index].toggle = 
-       
-          function() {flatwork_point_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
-                                           property_filters, rgba_code);}
+     //   master_layer_array[layer_index].layer_description = scope;
+     //   master_layer_array[layer_index].toggle = 
+     //  
+     //     function() {flatwork_point_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
+     //                                      scope, rgba_code);}
                                                                                
-      }       
+     //  }       
       
-       
     }                                                                          
                                                                               
  

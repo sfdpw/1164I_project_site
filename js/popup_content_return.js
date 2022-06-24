@@ -66,12 +66,6 @@ function return_plan_boundary_popup(feature) {
 
 }
 
-
-
-
-
-
-
 function pop_up_creator_for_domain(feature, layer)
 
 {
@@ -94,23 +88,18 @@ function pop_up_creator_for_domain(feature, layer)
 
         var popupContent =
             '<strong>Asset ID</strong><br>' +
-            (feature.properties['MXASSETNUM'] !== null ? Autolinker.link(feature.properties['MXASSETNUM'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Diameter</strong><br>' +
-            (feature.properties['PIPE_DIA'] !== null ? Autolinker.link(feature.properties['PIPE_DIA'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Material</strong><br>' +
-            (feature.properties['PIPE_MATL'] !== null ? Autolinker.link(feature.properties['PIPE_MATL'].toLocaleString()) : '') +
+            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Scope</strong><br>' +
-            (feature.properties['SCOPE'] !== null ? Autolinker.link(feature.properties['SCOPE'].toLocaleString()) : '') +
+            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Post-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.SUBMITTAL + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.VIDEO +
+            feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
+            feature.properties.submittals.tvi_post_con.video_no + ' - ' +
+            feature.properties.submittals.tvi_post_con.response +
             '<br><br>\
 <strong>Status</strong><br>' +
-            (feature.properties['STATUS'] !== null ? Autolinker.link(feature.properties['STATUS'].toLocaleString()) : '') +
+            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Payment History</strong><br>';
 
@@ -121,22 +110,17 @@ function pop_up_creator_for_domain(feature, layer)
 
     {
 
-
-
         var popupContent =
             '<strong>Asset ID</strong><br>' +
-            (feature.properties['MAXIMOID'] !== null ? Autolinker.link(feature.properties['MAXIMOID'].toLocaleString()) : '') + '<br><br>\
+            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') + '<br><br>\
 <strong>Node ID</strong><br>' +
-            (feature.properties['NODE_ID'] !== null ? Autolinker.link(feature.properties['NODE_ID'].toLocaleString()) : '') +
+            (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Scope</strong><br>' +
-            (feature.properties['SCOPE'] !== null ? Autolinker.link(feature.properties['SCOPE'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Submittal(s)</strong><br>' +
-            (feature.properties['SUBMITTALS'] !== null ? Autolinker.link(feature.properties['SUBMITTALS'].toLocaleString()) : '') +
+            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Status</strong><br>' +
-            (feature.properties['STATUS'] !== null ? Autolinker.link(feature.properties['STATUS'].toLocaleString()) : '') +
+            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Payment History</strong><br>';
 
@@ -149,29 +133,23 @@ function pop_up_creator_for_domain(feature, layer)
 
         var popupContent =
             '<strong>Asset ID</strong><br>' +
-            (feature.properties['MXASSETNUM'] !== null ? Autolinker.link(feature.properties['MXASSETNUM'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Pipe Diameter</strong><br>' +
-            (feature.properties['PIPE_DIA'] !== null ? Autolinker.link(feature.properties['PIPE_DIA'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Pipe Material</strong><br>' +
-            (feature.properties['PIPE_MATL'] !== null ? Autolinker.link(feature.properties['PIPE_MATL'].toLocaleString()) : '') +
+            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Scope</strong><br>' +
-            (feature.properties['SCOPE'] !== null ? Autolinker.link(feature.properties['SCOPE'].toLocaleString()) : '') +
+            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Pre-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.SUBMITTALS.TVI_PRE_CON.SUBMITTAL + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PRE_CON.VIDEO + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PRE_CON.RESPONSE +
+            feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
+            feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
+            feature.properties.submittals.tvi_pre_con.response +
             '<br><br>\
 <strong>Post-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.SUBMITTAL + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.VIDEO + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.RESPONSE +
+            feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
+            feature.properties.submittals.tvi_post_con.video_no + ' - ' +
+            feature.properties.submittals.tvi_post_con.response +
             '<br><br>\
 <strong>Status</strong><br>' +
-            (feature.properties['STATUS'] !== null ? Autolinker.link(feature.properties['STATUS'].toLocaleString()) : '') +
+            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Payment History</strong><br>';
 
@@ -185,18 +163,15 @@ function pop_up_creator_for_domain(feature, layer)
 
         var popupContent =
             '<strong>Asset ID</strong><br>' +
-            (feature.properties['MAXIMOID'] !== null ? Autolinker.link(feature.properties['MAXIMOID'].toLocaleString()) : '') + '<br><br>\
+            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') + '<br><br>\
 <strong>Node ID</strong><br>' +
-            (feature.properties['NODE_ID'] !== null ? Autolinker.link(feature.properties['NODE_ID'].toLocaleString()) : '') +
+            (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Scope</strong><br>' +
-            (feature.properties['SCOPE'] !== null ? Autolinker.link(feature.properties['SCOPE'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Submittal(s)</strong><br>' +
-            (feature.properties['SUBMITTALS'] !== null ? Autolinker.link(feature.properties['SUBMITTALS'].toLocaleString()) : '') +
+            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Status</strong><br>' +
-            (feature.properties['STATUS'] !== null ? Autolinker.link(feature.properties['STATUS'].toLocaleString()) : '') +
+            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Payment History</strong><br>';
 
@@ -211,75 +186,74 @@ function pop_up_creator_for_domain(feature, layer)
 
         var popupContent =
             '<strong>Asset ID</strong><br>' +
-            (feature.properties['MXASSETNUM'] !== null ? Autolinker.link(feature.properties['MXASSETNUM'].toLocaleString()) : '') +
+            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Address</strong><br>' +
-            (feature.properties['ADDRESS'] !== null ? Autolinker.link(feature.properties['ADDRESS'].toLocaleString()) : '') +
+            (feature.properties['location'] !== null ? Autolinker.link(feature.properties['location'].toLocaleString()) : '') +
             '<br><br>\
 <strong>BLKLOT</strong><br>' +
-            (feature.properties['BLKLOT'] !== null ? Autolinker.link(feature.properties['BLKLOT'].toLocaleString()) : '') +
+            (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Scope</strong><br>' +
-            (feature.properties['SCOPE'] !== null ? Autolinker.link(feature.properties['SCOPE'].toLocaleString()) : '') +
+            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Pre-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.SUBMITTALS.TVI_PRE_CON.SUBMITTAL + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PRE_CON.VIDEO + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PRE_CON.RESPONSE + 
+            feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
+            feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
+            feature.properties.submittals.tvi_pre_con.response + 
             '<br><br>\
 <strong>Post-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.SUBMITTAL + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.VIDEO + ' - ' +
-            feature.properties.SUBMITTALS.TVI_PST_CON.RESPONSE +             
+            feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
+            feature.properties.submittals.tvi_post_con.video_no + ' - ' +
+            feature.properties.submittals.tvi_post_con.response +             
             '<br><br>\
 <strong>Status</strong><br>' +
-            (feature.properties['STATUS'] !== null ? Autolinker.link(feature.properties['STATUS'].toLocaleString()) : '') +
+            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
             '<br><br>\
 <strong>Payment History</strong><br>';
 
         popupContent += pp_history_details(feature);
 
-    } else if (layer.feature.L_index_stored_in_each_feature >= R_fltwrk_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature <= R_fltwrk_index_limits[1])
+    } 
+    //else if (layer.feature.L_index_stored_in_each_feature >= R_fltwrk_index_limits[0] &&
+    //    layer.feature.L_index_stored_in_each_feature <= R_fltwrk_index_limits[1])
 
-    {
+    //{
 
-        var bid_item_code = (feature.properties.INST_ID.substring(0, 4).replace('R_0', 'R_')).replace('_', '-');
+    //    var bid_item_code = (feature.properties.INST_ID.substring(0, 4).replace('R_0', 'R_')).replace('_', '-');
 
-        var areacalcs = '';
+    //    var areacalcs = '';
 
-        var popupContent =
-            '<strong>Instance Id</strong><br>' +
-            feature.properties.INST_ID.replace(/_/g, "-") + '<br><br>' +
-            '<strong>Description</strong><br>' +
-            unpack_flatwork_feature_description(bid_item_code) +
-            '<br><br>'; 
+    //    var popupContent =
+    //        '<strong>Instance Id</strong><br>' +
+    //        feature.properties.INST_ID.replace(/_/g, "-") + '<br><br>' +
+    //        '<strong>Description</strong><br>' +
+    //        unpack_flatwork_feature_description(bid_item_code) +
+    //        '<br><br>'; 
             
-          if (bid_item_code == 'R-15')
+    //      if (bid_item_code == 'R-15')
           
-            {
+    //        {
             
-             popupContent += '<strong>Utility</strong><br>'+
-                              feature.properties.UTILITY + '<br><br>';
+    //         popupContent += '<strong>Utility</strong><br>'+
+    //                          feature.properties.UTILITY + '<br><br>';
              
-             }
+    //         }
             
             
-        popupContent +=
-            '<strong>Status</strong><br>' +
-            feature.properties.STATUS + '<br><br>' +
-            '<strong>Relevant Documents</strong><br>' +
-            feature.properties.RLVNT +
-            '<br><br>' + areacalcs +
-            '<strong>Payment History</strong><br>';
+    //    popupContent +=
+    //        '<strong>Status</strong><br>' +
+    //        feature.properties.STATUS + '<br><br>' +
+    //        '<strong>Relevant Documents</strong><br>' +
+    //        feature.properties.RLVNT +
+    //        '<br><br>' + areacalcs +
+    //        '<strong>Payment History</strong><br>';
 
-        popupContent += pp_history_details(feature);
+    //    popupContent += pp_history_details(feature);
 
-    }  
+    //}  
 
-    layer.bindPopup(popupContent, {
-        maxHeight: 400
-    });
+    layer.bindPopup(popupContent, {maxHeight: 400});
 
 }
 
@@ -293,34 +267,34 @@ function pp_history_details(ffeature)
 
     var pp_history_details = "";
 
-    if (Object.keys(ffeature.properties['PP_HISTORY']).length > 0)
+    if (Object.keys(ffeature.properties['pp_history']).length > 0)
 
     {
 
         pp_history_details += '<table>';
 
-        for (const bid_item in ffeature.properties['PP_HISTORY'])
+        for (const bid_item in ffeature.properties['pp_history'])
 
         {
 
 
-            if (Object.keys(ffeature.properties['PP_HISTORY'][bid_item]).length != 0)
+            if (Object.keys(ffeature.properties['pp_history'][bid_item]).length != 0)
 
             {
 
-                for (const payment_no in ffeature.properties['PP_HISTORY'][bid_item])
+                for (const payment_no in ffeature.properties['pp_history'][bid_item])
 
                 {
 
-                    for (const fund in ffeature.properties['PP_HISTORY'][bid_item][payment_no])
+                    for (const fund in ffeature.properties['pp_history'][bid_item][payment_no])
 
 
                     {
 
                         pp_history_details +=
                             pp_history_row(bid_item,
-                                ffeature.properties['PP_HISTORY'][bid_item][payment_no][fund]['QTY'],
-                                ffeature.properties['PP_HISTORY'][bid_item][payment_no][fund]['UNIT'],
+                                ffeature.properties['pp_history'][bid_item][payment_no][fund]['QTY'],
+                                ffeature.properties['pp_history'][bid_item][payment_no][fund]['UNIT'],
                                 payment_no,
                                 fund);
 

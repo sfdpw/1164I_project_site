@@ -44,6 +44,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	   <li class="nav-item active">\
 	     <a class="nav-link" href="' + nav_path + 'specs/specs.html">Specs</a>\
            </li>\
+	   <li class="nav-item active">\
+	     <a class="nav-link" href="' + nav_path + 'other/1164I_mixes.pdf" target="_blank">Mixes</a>\
+           </li>\
          </ul>\
        </div>';
 
