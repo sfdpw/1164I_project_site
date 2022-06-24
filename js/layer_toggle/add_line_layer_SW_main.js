@@ -5,8 +5,6 @@ function SW_main_layer_toggle(type, layer_index, master_layer_array, local_json_
 
     if (document.getElementById('L_'.concat(layer_index)).checked) {
 
-        
-
         if (master_layer_array[layer_index].loaded == false) {
 
             map.createPane('P_'.concat(layer_index));

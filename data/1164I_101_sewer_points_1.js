@@ -178,10 +178,10 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-65984", "id_b": "210935", "location": "Coso Ave and Precita St Mini Park", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418196400032414, 37.746121905287225 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "deletable_010", "id_b": "-", "location": "-", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414100138987109, 37.743135605299287 ] } },
+//{ "type": "Feature", "properties": { "id_a": "deletable_010", "id_b": "-", "location": "-", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414100138987109, 37.743135605299287 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "deletable_011", "id_b": "-", "location": "-", "type": "MH", "scope": "Abandon (E)", "status": "Post-Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.413929920691743, 37.743095629534814 ] } },
+//{ "type": "Feature", "properties": { "id_a": "deletable_011", "id_b": "-", "location": "-", "type": "MH", "scope": "Abandon (E)", "status": "Post-Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.413929920691743, 37.743095629534814 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "deletable_012", "id_b": "-", "location": "-", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.412852860073912, 37.743101141022997 ] } }
+//{ "type": "Feature", "properties": { "id_a": "deletable_012", "id_b": "-", "location": "-", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.412852860073912, 37.743101141022997 ] } }
 ]
 }

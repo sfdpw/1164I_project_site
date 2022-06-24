@@ -1,6 +1,6 @@
 
 
-function SW_clvt_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, property_filters, rgba_code)
+function SW_clvt_layer_toggle(type, layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code)
 
   {
 
@@ -16,7 +16,8 @@ function SW_clvt_layer_toggle(layer_index, master_layer_array, local_json_layer_
 
             {
                 
-                  if (local_json_layer_obj['features'][ii].properties.SCOPE == property_filters)
+                if (type == local_json_layer_obj.features[ii].properties.type &&
+                    scope == local_json_layer_obj.features[ii].properties.scope)
                   
                     {
 
@@ -55,7 +56,7 @@ function SW_clvt_layer_toggle(layer_index, master_layer_array, local_json_layer_
 
 function SW_clvt_layer_styler(feature) {
 
-    switch (String(feature.properties['STATUS'])) {
+    switch (String(feature.properties['status'])) {
         case 'No Construction':
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
@@ -70,7 +71,7 @@ function SW_clvt_layer_styler(feature) {
             }
             break;
 
-        case 'Scoped, Pre-Construction':
+        case 'Pre-Construction':
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
                     opacity: 1,
@@ -99,7 +100,7 @@ function SW_clvt_layer_styler(feature) {
             }
             break;
 
-        case 'Televised, Replacement Directed':
+        case 'Pending Direction':
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
                     opacity: 1,

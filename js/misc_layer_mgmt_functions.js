@@ -226,7 +226,8 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_MH_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
+         function() {SW_MH_layer_toggle(type, layer_index, master_layer_array,
+                                        local_json_layer_obj, scope, rgba_code);}
                                                                                
        }
        
@@ -237,7 +238,8 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_clvt_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
+         function() {SW_clvt_layer_toggle(type, layer_index, master_layer_array,
+                                          local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
 
@@ -249,7 +251,8 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_drain_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
+         function() {SW_drain_layer_toggle(type, layer_index, master_layer_array,
+                                           local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
  
@@ -260,7 +263,8 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
        master_layer_array[layer_index].layer_description = scope;
        master_layer_array[layer_index].toggle = 
        
-         function() {SW_lateral_layer_toggle(layer_index, master_layer_array, local_json_layer_obj, scope, rgba_code);}
+         function() {SW_lateral_layer_toggle(type, layer_index, master_layer_array,
+                                             local_json_layer_obj, scope, rgba_code);}
                                                                                
       }
       

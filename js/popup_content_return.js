@@ -93,6 +93,11 @@ function pop_up_creator_for_domain(feature, layer)
 <strong>Scope</strong><br>' +
             (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
             '<br><br>\
+<strong>Pre-Con Submittal - Video - Response</strong><br>' +
+            feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
+            feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
+            feature.properties.submittals.tvi_pre_con.response +
+            '<br><br>\
 <strong>Post-Con Submittal - Video - Response</strong><br>' +
             feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
             feature.properties.submittals.tvi_post_con.video_no + ' - ' +
@@ -371,8 +376,8 @@ function pp_history_row(bid_item, QTY, UNIT, payment_no, FUND)
     } else {
 
 
-      row_string = 'Completion shown for clarity;<br>no additional QTY paid.';
-
+      //row_string = 'Completion shown for clarity;<br>no additional QTY paid.';
+      row_string = 'none'
 
     }
 
