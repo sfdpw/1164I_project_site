@@ -1038,37 +1038,12 @@
 
  {
   'bid_item': 'SW-6',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': '15-INCH DIAMETER VCP SEWER ON CRUSHED ROCK BEDDING WRAPPED IN GEOTEXTILE  FABRIC',
   'unit': 'LF',
   'contract_qty': 123,
   'unit_price':250,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-06', 250)
   },
 
  {
@@ -1583,7 +1558,7 @@
 
  {
   'bid_item': 'SW-23',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '**CONSTRUCTION  OR REPLACEMENT  OF 6- INCH OR 8-INCH DIAMETER  SIDE SEWER LOCATED WITHIN LIMITS OF MAIN SEWER WORK (CONTINGENCY BID ITEM)',
   'unit': 'LF',
   'contract_qty': 2500,
@@ -1628,37 +1603,12 @@
 
  {
   'bid_item': 'SW-25',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '**10-INCH DIAMETER CULVERT (CONTINGENCY  BID ITEM)',
   'unit': 'LF',
   'contract_qty': 242,
   'unit_price':200,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-25', 200)
   },
 
  {
@@ -1733,37 +1683,12 @@
 
  {
   'bid_item': 'SW-28',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': 'POST-CONSTRUCTION TELEVISION INSPECTION OF NEWLY CONSTRUCTED MAINS AND LINED MAIN SEWERS',
   'unit': 'LS',
   'contract_qty': 1,
   'unit_price':12000,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-28', 12000)
   },
 
  {

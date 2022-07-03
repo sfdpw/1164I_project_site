@@ -50,6 +50,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	           <li>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP01.html">PP01 - Apr 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP02.html">PP02 - May 2022</a>\
+		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP03.html">PP03 - Jun 2022</a>\
 	         </ul>\
 	       </li>\
 	       <li>\
@@ -58,6 +59,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	           <li>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP01.html">PP01 - Apr 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP02.html">PP02 - May 2022</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP03.html">PP03 - Jun 2022</a>\
 	         </ul>\
 	       </li>\
 	     </ul>\
@@ -132,6 +134,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-23.html">SW-23 - Side Sewer Replacement</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-25.html">SW-25 - (N) 10\" VCP Culvert</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-29.html">SW-29 - Post-Con TVI of (N) Side Sewers and Culverts</a>\
 	               </li>\
 	             </ul>\
@@ -141,6 +146,12 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-05.html">SW-05 - (N) 12" VCP SW Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-06.html">SW-06 - (N) 15" VCP SW Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-28.html">SW-28 - Post-Con TVI of (N) SW Mains</a>\
 	               </li>\
 	             </ul>\
 	           </li>\

@@ -72,7 +72,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-74116", "id_b": "6028", "location": "Coso Ave, East of Prospect Ave Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417169553899143, 37.745693087670631 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415429", "id_b": "317945", "location": "Coso Ave, West of Winfield St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416783310748201, 37.745533253260149 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415429", "id_b": "317945", "location": "Coso Ave, West of Winfield St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416783310748201, 37.745533253260149 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-35823", "id_b": "23473", "location": "Coso Ave and Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416691121354134, 37.745495596384906 ] } },
 
@@ -84,19 +84,19 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-25505", "id_b": "23472", "location": "Coso Ave, East of Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416603867902097, 37.745459255235943 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415430", "id_b": "317944", "location": "Aztec St, East of Coso Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.4163990756728, 37.745459218172087 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415430", "id_b": "317944", "location": "Aztec St, East of Coso Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.4163990756728, 37.745459218172087 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-49670", "id_b": "162379", "location": "Coso Ave and Aztec St Intersection - East", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416356817856894, 37.745420947904748 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-349464", "id_b": "290340", "location": "Coso Ave and Aztec St Intersection - East", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416359852531315, 37.745399667619829 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415431", "id_b": "317943", "location": "Fronting 51 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415830919750576, 37.74549260491068 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415431", "id_b": "317943", "location": "Fronting 51 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415830919750576, 37.74549260491068 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-338809", "id_b": "275903", "location": "Fronting 57 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415727197624221, 37.745499543722829 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-338809", "id_b": "275903", "location": "Fronting 57 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415727197624221, 37.745499543722829 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-338803", "id_b": "275899", "location": "Fronting 62 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415327165298095, 37.745526271206117 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-338803", "id_b": "275899", "location": "Fronting 62 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415327165298095, 37.745526271206117 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-338801", "id_b": "275901", "location": "Fronting 68 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415259183798966, 37.745504458753125 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-338801", "id_b": "275901", "location": "Fronting 68 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415259183798966, 37.745504458753125 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-338802", "id_b": "275900", "location": "Bottom of Aztec St Stairs", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415094707307205, 37.74551702105628 ] } },
 
@@ -104,13 +104,13 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-415442", "id_b": "317950", "location": "Fronting 71 Manchester St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414279758635416, 37.745889461697914 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415441", "id_b": "317951", "location": "Manchester St, South of Bessie St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414349028232749, 37.746674632592352 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415441", "id_b": "317951", "location": "Manchester St, South of Bessie St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414349028232749, 37.746674632592352 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415440", "id_b": "317953", "location": "Bessie St and Manchester St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41435819323388, 37.746777354329346 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415440", "id_b": "317953", "location": "Bessie St and Manchester St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41435819323388, 37.746777354329346 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415451", "id_b": "317955", "location": "Bessie St, West of Manchester St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414471504774681, 37.746771255501066 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415451", "id_b": "317955", "location": "Bessie St, West of Manchester St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414471504774681, 37.746771255501066 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415450", "id_b": "317956", "location": "Bessie St, West of Folsom St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.413796347018959, 37.746810654514796 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415450", "id_b": "317956", "location": "Bessie St, West of Folsom St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.413796347018959, 37.746810654514796 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-25751", "id_b": "22385", "location": "Bessie St and Folsom St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.413571492750478, 37.746826905784012 ] } },
 

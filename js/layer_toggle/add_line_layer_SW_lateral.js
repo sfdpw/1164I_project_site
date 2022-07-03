@@ -59,9 +59,14 @@ function SW_lateral_layer_styler(feature) {
     var status_line_weight = 4.0;
     
     if ( feature.properties.scope != '(E) to Remain' && 
-         ( feature.properties.status == 'No Construction' ||
+         ( 
+           
+           feature.properties.status == 'No Construction' ||
            feature.properties.status == '(E) Not Found' ||
-           feature.properties.status == '(E) Capped' )  )
+           feature.properties.status == '(E) Capped' || 
+           feature.properties.status == 'Scope Deleted'
+           
+           )  )
     
     {
     
@@ -101,6 +106,21 @@ function SW_lateral_layer_styler(feature) {
                     interactive: true,
             }
             break;
+
+        case 'Scope Deleted':
+            return {
+                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+                    opacity: 1,
+                    color: feature.rgba_code_stored_in_each_feature,
+                    dashArray: dash_code,
+                    lineCap: 'round',
+                    lineJoin: 'round',
+                    weight: 4.0,
+                    fillOpacity: 0,
+                    interactive: true,
+            }
+            break;
+
 
         case 'No Construction':
             return {
