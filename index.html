@@ -139,10 +139,7 @@
             zoomControl: true,
             maxZoom: 28,
             minZoom: 1
-        }).fitBounds([
-            [37.72098969531007, -122.4002063081103],
-            [37.72451383659796, -122.39481225541736]
-        ]);
+        }).fitBounds([[37.745439864979495,-122.41539825069765],[37.74559888284366,-122.41512709225617]]);
         var hash = new L.Hash(map);
 
         map.attributionControl.setPrefix('The accuracy of information presented on this map is not guaranteed. Consult City Representative for official documentation.');
@@ -177,7 +174,7 @@
 
         function setBounds() {
         
-            //map.setView(new L.LatLng(37.7400, -122.4173), 15);
+            map.setView(new L.LatLng(37.7400, -122.4173), 15);
 
         }
         
