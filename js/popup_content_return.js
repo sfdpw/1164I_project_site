@@ -220,21 +220,22 @@ function pop_up_creator_for_domain(feature, layer)
         popupContent += pp_history_details(feature);
 
     } 
-    //else if (layer.feature.L_index_stored_in_each_feature >= R_fltwrk_index_limits[0] &&
-    //    layer.feature.L_index_stored_in_each_feature <= R_fltwrk_index_limits[1])
+    
+    else if (layer.feature.L_index_stored_in_each_feature >= R_fltwrk_index_limits[0] &&
+        layer.feature.L_index_stored_in_each_feature <= R_fltwrk_index_limits[1])
 
-    //{
+    {
 
-    //    var bid_item_code = (feature.properties.INST_ID.substring(0, 4).replace('R_0', 'R_')).replace('_', '-');
+        var bid_item_code = feature.properties.inst_id.substring(0, 4).replace('R-0', 'R-');
 
-    //    var areacalcs = '';
+        var areacalcs = '';
 
-    //    var popupContent =
-    //        '<strong>Instance Id</strong><br>' +
-    //        feature.properties.INST_ID.replace(/_/g, "-") + '<br><br>' +
-    //        '<strong>Description</strong><br>' +
-    //        unpack_flatwork_feature_description(bid_item_code) +
-    //        '<br><br>'; 
+        var popupContent =
+            '<strong>Instance Id</strong><br>' +
+            feature.properties.inst_id.replace(/_/g, "-") + '<br><br>' +
+            '<strong>Description</strong><br>' +
+            unpack_flatwork_feature_description(bid_item_code) +
+            '<br><br>'; 
             
     //      if (bid_item_code == 'R-15')
           
@@ -246,17 +247,17 @@ function pop_up_creator_for_domain(feature, layer)
     //         }
             
             
-    //    popupContent +=
-    //        '<strong>Status</strong><br>' +
-    //        feature.properties.STATUS + '<br><br>' +
-    //        '<strong>Relevant Documents</strong><br>' +
-    //        feature.properties.RLVNT +
-    //        '<br><br>' + areacalcs +
-    //        '<strong>Payment History</strong><br>';
+        popupContent +=
+            '<strong>Status</strong><br>' +
+            feature.properties.status + '<br><br>' +
+           '<strong>Relevant Documents</strong><br>' +
+            feature.properties.rlvnt +
+            '<br><br>' + areacalcs +
+            '<strong>Payment History</strong><br>';
 
-    //    popupContent += pp_history_details(feature);
+        popupContent += pp_history_details(feature);
 
-    //}  
+    }  
 
     layer.bindPopup(popupContent, {maxHeight: 400});
 

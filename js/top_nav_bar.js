@@ -74,19 +74,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: Reflective Markings</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-03.html">R-03: Planing</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-04.html">R-04: HMA</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-05.html">R-05: 8in Conc. Base</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-06.html">R-06: 10in Conc. Base</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-04.html">R-04: 8in Conc. Base</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -94,25 +82,10 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Sidewalk, Curb and Gutter &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-07.html">R-07: Conc. Pavement, Parking Strip and Gutter</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-09.html">R-09: 3.5in Sidewalk</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-08.html">R-08: 3.5in Sidewalk</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-09.html">R-09: 4in Curb</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-10.html">R-10: 6in Curb</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-11.html">R-11: Combined Curb and Gutter</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-12.html">R-12: Curb Ramps</a>\
-	               </li>\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-15.html">R-15: Type III Pullboxes</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-10.html">R-09: 6in Cub</a>\
 	               </li>\
 	             </ul>\
 	           </li>\

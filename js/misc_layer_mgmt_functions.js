@@ -268,17 +268,17 @@ function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba
                                                                                
       }
       
-     //else if (type == 'R_polygon')
+     else if (type == 'R_polygon')
 
-     // {
+      {
       
-     //  master_layer_array[layer_index].layer_description = scope;
-     //  master_layer_array[layer_index].toggle = 
+       master_layer_array[layer_index].layer_description = scope;
+       master_layer_array[layer_index].toggle = 
        
-     //     function() {flatwork_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
-     //                                       scope, rgba_code);}
+          function() {flatwork_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
+                                            scope, rgba_code);}
                                                                                
-     //  }  
+      }  
       
      //  else if (type == 'R_point')
 

@@ -248,37 +248,12 @@
 
  {
   'bid_item': 'R-4',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': '8-INCH THICK CONCRETE BASE',
   'unit': 'SF',
   'contract_qty': 24021,
   'unit_price':14,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-04', 14)
   },
 
  {
@@ -423,72 +398,22 @@
 
  {
   'bid_item': 'R-9',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': '3 ½-INCH THICK CONCRETE SIDEWALK',
   'unit': 'SF',
   'contract_qty': 8500,
   'unit_price':13,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-09', 13)
   },
 
  {
   'bid_item': 'R-10',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '6-INCH WIDE CONCRETE CURB',
   'unit': 'LF',
   'contract_qty': 436,
   'unit_price':70,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-10', 70)
   },
 
  {
@@ -528,37 +453,12 @@
 
  {
   'bid_item': 'R-12',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': 'RESET EXISTING GRANITE CURB',
   'unit': 'LF',
   'contract_qty': 94,
   'unit_price':115,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-12', 115)
   },
 
  {
@@ -934,7 +834,7 @@
                       'SFPUC-SW': {
                                    'PP01':5400,
                                    'PP02':19350,
-                                   'PP03':0.00,    
+                                   'PP03':22500,    
                                    'PP04':0.00,   
                                    'PP05':0.00,    
                                    'PP06':0.00,                               
@@ -969,7 +869,7 @@
                       'SFPUC-SW': {
                                    'PP01':11890,
                                    'PP02':43210,
-                                   'PP03':0.00,    
+                                   'PP03':49300,    
                                    'PP04':0.00,   
                                    'PP05':0.00,    
                                    'PP06':0.00,                               
