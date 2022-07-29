@@ -252,7 +252,7 @@
   'description': '8-INCH THICK CONCRETE BASE',
   'unit': 'SF',
   'contract_qty': 24021,
-  'unit_price':14,
+  'unit_price': 14,
   'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-04', 14)
   },
 
