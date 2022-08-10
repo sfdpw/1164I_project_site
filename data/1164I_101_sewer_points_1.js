@@ -48,13 +48,13 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-391438", "id_b": "297663", "location": "Ellsworth St and Ogden Ave Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414914640034027, 37.735941170266933 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-24348", "id_b": "23488", "location": "Fronting 16 Lundys Ln (End)", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417953275368006, 37.745357766964617 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-24348", "id_b": "23488", "location": "Fronting 16 Lundys Ln (End)", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417953275368006, 37.745357766964617 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415403", "id_b": "317929", "location": "Fronting 16 Lundys Ln (End)", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP01": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41792378728212, 37.745376668542391 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415404", "id_b": "317928", "location": "Lundys Ln, South of Coso Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP01": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417667030139526, 37.745774125853146 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-349712", "id_b": "290476", "location": "Lundys Ln, South of Coso Ave Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417669970238649, 37.745797076014874 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-349712", "id_b": "290476", "location": "Lundys Ln, South of Coso Ave Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417669970238649, 37.745797076014874 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-14124", "id_b": "23486", "location": "Coso Ave and Montezuma St Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417659268857804, 37.745889669565038 ] } },
 
@@ -70,11 +70,11 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-36373", "id_b": "23509", "location": "Montezuma St and Shotwell St Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415054122043173, 37.746054335395527 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-74116", "id_b": "6028", "location": "Coso Ave, East of Prospect Ave Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417169553899143, 37.745693087670631 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-74116", "id_b": "6028", "location": "Coso Ave, East of Prospect Ave Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417169553899143, 37.745693087670631 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415429", "id_b": "317945", "location": "Coso Ave, West of Winfield St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416783310748201, 37.745533253260149 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-35823", "id_b": "23473", "location": "Coso Ave and Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416691121354134, 37.745495596384906 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-35823", "id_b": "23473", "location": "Coso Ave and Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416691121354134, 37.745495596384906 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-418680", "id_b": "322303", "location": "Coso Ave and Winfield St Intersection - SWC", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416743931637001, 37.745472293086138 ] } },
 
@@ -82,7 +82,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-44841", "id_b": "156650", "location": "Coso Ave and Winfield St Intersection - North", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41661139188993, 37.745505610273334 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-25505", "id_b": "23472", "location": "Coso Ave, East of Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416603867902097, 37.745459255235943 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-25505", "id_b": "23472", "location": "Coso Ave, East of Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416603867902097, 37.745459255235943 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415430", "id_b": "317944", "location": "Aztec St, East of Coso Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.4163990756728, 37.745459218172087 ] } },
 
@@ -98,7 +98,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-338801", "id_b": "275901", "location": "Fronting 68 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415259183798966, 37.745504458753125 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-338802", "id_b": "275900", "location": "Bottom of Aztec St Stairs", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415094707307205, 37.74551702105628 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-338802", "id_b": "275900", "location": "Bottom of Aztec St Stairs", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415094707307205, 37.74551702105628 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415443", "id_b": "317949", "location": "Manchester St, North of Stoneman St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41421558105705, 37.745221904427943 ] } },
 

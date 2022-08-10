@@ -153,7 +153,7 @@
                                    'PP01':0.00,
                                    'PP02':0.00,
                                    'PP03':0.00,    
-                                   'PP04':0.00,   
+                                   'PP04':12967.50,   
                                    'PP05':0.00,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 
@@ -328,37 +328,12 @@
 
  {
   'bid_item': 'R-7',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': '10-INCH THICK CONCRETE BUS PAD (6,000 PSI)',
   'unit': 'SF',
   'contract_qty': 2185,
   'unit_price':17,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-07', 17)
   },
 
  {
@@ -753,7 +728,7 @@
                                    'PP01':0.00,
                                    'PP02':0.00,
                                    'PP03':0.00,    
-                                   'PP04':0.00,   
+                                   'PP04':31000,   
                                    'PP05':0.00,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 
@@ -893,37 +868,12 @@
 
  {
   'bid_item': 'SW-4',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': 'CLEAN AND MORTAR EXISTING MANHOLE',
   'unit': 'EA',
   'contract_qty': 12,
   'unit_price':5050,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_points_1'], 'SW-04', 5050)
   },
 
  {
@@ -1018,107 +968,32 @@
 
  {
   'bid_item': 'SW-9',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': 'LINE EXISTING 8-INCH INSIDE DIAMETER PIPE WITH STYRENE-FREE CURED-IN-PLACE LINER (CIPL)',
   'unit': 'LF',
   'contract_qty': 56,
   'unit_price':545,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-09', 545)
   },
 
  {
   'bid_item': 'SW-10',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': 'LINE EXISTING 10-INCH INSIDE DIAMETER PIPE WITH STYRENE-FREE CURED-IN-PLACE LINER (CIPL)',
   'unit': 'LF',
   'contract_qty': 100,
   'unit_price':252,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-10', 252)
   },
 
  {
   'bid_item': 'SW-11',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': 'LINE EXISTING 12-INCH INSIDE DIAMETER PIPE WITH STYRENE-FREE CURED-IN-PLACE LINER (CIPL)',
   'unit': 'LF',
   'contract_qty': 95,
   'unit_price':283,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-11', 283)
   },
 
  {
@@ -1298,37 +1173,12 @@
 
  {
   'bid_item': 'SW-17',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '**BYPASSING SIDE SEWER FLOW RELATED TO LINING (CONTINGENCY BID ITEM)',
   'unit': 'EA',
   'contract_qty': 27,
   'unit_price':200,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-17', 200)
   },
 
  {
@@ -2080,7 +1930,7 @@
                                    'PP01':0.00,
                                    'PP02':0.00,
                                    'PP03':0.00,    
-                                   'PP04':0.00,   
+                                   'PP04':35150,   
                                    'PP05':0.00,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 

@@ -51,6 +51,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP01.html">PP01 - Apr 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP02.html">PP02 - May 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP03.html">PP03 - Jun 2022</a>\
+		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP04.html">PP04 - Jul 2022</a>\
 	         </ul>\
 	       </li>\
 	       <li>\
@@ -60,6 +61,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP01.html">PP01 - Apr 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP02.html">PP02 - May 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP03.html">PP03 - Jun 2022</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP04.html">PP04 - Jul 2022</a>\
 	         </ul>\
 	       </li>\
 	     </ul>\
@@ -75,6 +77,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-04.html">R-04: 8in Conc. Base</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-07.html">R-07: 10in Bus Pad</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -97,6 +102,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	           <li>\
 	             <a class="dropdown-item" href="#">Side Sewers, Culverts &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-17.html">SW-17 - Side Sewer Bypass During Sewer Main Lining</a>\
+	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-20.html">SW-20 - Side Sewer Connection to Sewer Main</a>\
 	               </li>\
@@ -124,6 +132,15 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-06.html">SW-06 - (N) 15" VCP SW Main</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-09.html">SW-09 - Line (E) 8" VCP SW Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-10.html">SW-10 - Line (E) 10" VCP SW Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-11.html">SW-11 - Line (E) 12" VCP SW Main</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-28.html">SW-28 - Post-Con TVI of (N) SW Mains</a>\
 	               </li>\
 	             </ul>\
@@ -141,6 +158,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-03.html">SW-03 - (N) MH - STD 87,181</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-04.html">SW-04 - Clean and Mortar (E) MH</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -180,7 +200,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
                     color:white;\
                     font-weight:bold"\
                     data-toogle="tooltip"\
-	            title="' + base_sov[NN]['Description'] +
+	            title="' + base_sov[NN]['description'] +
             ' (' + base_sov[NN]['Unit'] + ')"\> Quantity Details for ' + bid_item_id + '</div>';
 
     }
