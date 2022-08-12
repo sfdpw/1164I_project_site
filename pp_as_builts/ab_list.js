@@ -6,7 +6,11 @@ var json_ab_list = {
 '1164I_SW-07_AB_PP02',
 '1164I_SW-08_AB_PP02',
 '1164I_SW-09_AB_PP03',
-'1164I_SW-11_AB_PP03'
+'1164I_SW-11_AB_PP03',
+'1164I_SW-07_AB_PP04_a',
+'1164I_SW-07_AB_PP04_b',
+'1164I_SW-09_AB_PP04_a',
+'1164I_SW-09_AB_PP04_b'
 
 ],
  
@@ -14,13 +18,17 @@ var json_ab_list = {
 
 '1164I_R-02_AB_PP03',
 '1164I_R-03_AB_PP03',
-'1164I_R-07_AB_PP03'
+'1164I_R-07_AB_PP03',
+'1164I_R-02_AB_PP04',
+'1164I_R-09_AB_PP04'
 
 ], 
  
  
 "CR": [
 
+'1164I_CR-02_AB_PP04',
+'1164I_CR-07_AB_PP04'
 
 ] 
  
