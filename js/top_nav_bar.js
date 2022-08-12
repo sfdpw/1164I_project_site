@@ -90,7 +90,19 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-09.html">R-09: 3.5in Sidewalk</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-10.html">R-09: 6in Cub</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-10.html">R-10: 6in Curb</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-11.html">R-11: 4in Curb</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-12.html">R-12: Reset (E) Granite Curb</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-13.html">R-13: Combined Curb/Gutter</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-14.html">R-14: Curb Ramp</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
