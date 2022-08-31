@@ -176,7 +176,13 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-36372", "id_b": "23674", "location": "Fronting 1599 Treat Ave", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.412395029324173, 37.745010921352637 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-65984", "id_b": "210935", "location": "Coso Ave and Precita St Mini Park", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418196400032414, 37.746121905287225 ] } }
+{ "type": "Feature", "properties": { "id_a": "N-65984", "id_b": "210935", "location": "Coso Ave and Precita St Mini Park", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418196400032414, 37.746121905287225 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-24658", "id_b": "2060", "location": "Fronting 1543 Treat Ave", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41249031783704, 37.746011860837143 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-24265", "id_b": "23675", "location": "1575 Treat Ave", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "-" }, "geometry": { "type": "Point", "coordinates": [ -122.412444584960284, 37.745529682147449 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-25109", "id_b": "22387-", "location": "Interesection of Treat Ave and Precita Ave", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.412564472842149, 37.746827236564449 ] } }
 
 //{ "type": "Feature", "properties": { "id_a": "deletable_010", "id_b": "-", "location": "-", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414100138987109, 37.743135605299287 ] } },
 
