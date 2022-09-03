@@ -76,7 +76,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-35823", "id_b": "23473", "location": "Coso Ave and Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416691121354134, 37.745495596384906 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-418680", "id_b": "322303", "location": "Coso Ave and Winfield St Intersection - SWC", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416743931637001, 37.745472293086138 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-418680", "id_b": "322303", "location": "Coso Ave and Winfield St Intersection - SWC", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP05": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416743931637001, 37.745472293086138 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-50564", "id_b": "162380", "location": "Coso Ave and Winfield St Intersection - SEC", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416648406808378, 37.745450492119538 ] } },
 
@@ -114,7 +114,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-25751", "id_b": "22385", "location": "Bessie St and Folsom St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.413571492750478, 37.746826905784012 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-418686", "id_b": "322326", "location": "Bessie St and Manchester St Intersection - SEC", "type": "CB", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414298499853373, 37.746739027996249 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-418686", "id_b": "322326", "location": "Bessie St and Manchester St Intersection - SEC", "type": "CB", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP05": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414298499853373, 37.746739027996249 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-24267", "id_b": "23672", "location": "Mullen Ave and Alabama St Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.410585374878252, 37.746355746695784 ] } },
 

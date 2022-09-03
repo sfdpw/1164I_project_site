@@ -736,7 +736,7 @@
                                    'PP02':19350,
                                    'PP03':22500,    
                                    'PP04':0.00,   
-                                   'PP05':0.00,    
+                                   'PP05':12000,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 
                                    'PP08':0.00,                               
@@ -771,7 +771,7 @@
                                    'PP02':43210,
                                    'PP03':49300,    
                                    'PP04':0.00,   
-                                   'PP05':0.00,    
+                                   'PP05':7250,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 
                                    'PP08':0.00,                               
@@ -1243,37 +1243,12 @@
 
  {
   'bid_item': 'SW-24',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '**CONSTRUCTION  OR REPLACEMENT  OF 6 OR 8-INCH DIAMETER SIDE SEWER LOCATED OUTSIDE THE LIMITS OF MAIN SEWER WORK BUT WITHIN CONTRACT LIMITS (CONTINGENCY BID ITEM)',
   'unit': 'LF',
   'contract_qty': 200,
   'unit_price':120,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-24', 120)
   },
 
  {
@@ -1288,37 +1263,12 @@
 
  {
   'bid_item': 'SW-26',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': 'CONCRETE CATCH BASIN WITHOUT CURB INLET AND WITH NEW FRAME AND GRATING (PER SFDPW STANDARD PLAN 87,188)',
   'unit': 'EA',
   'contract_qty': 3,
   'unit_price':7000,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_points_1'], 'SW-26', 7000)
   },
 
  {

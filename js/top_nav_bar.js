@@ -52,6 +52,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP02.html">PP02 - May 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP03.html">PP03 - Jun 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP04.html">PP04 - Jul 2022</a>\
+		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP05.html">PP05 - Aug 2022</a>\
 	         </ul>\
 	       </li>\
 	       <li>\
@@ -62,6 +63,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP02.html">PP02 - May 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP03.html">PP03 - Jun 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP04.html">PP04 - Jul 2022</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP05.html">PP05 - Aug 2022</a>\
 	         </ul>\
 	       </li>\
 	     </ul>\
@@ -127,6 +129,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-23.html">SW-23 - Side Sewer Replacement</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-24.html">SW-24 - Side Sewer Replacement Outside Sewer Limits</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-25.html">SW-25 - (N) 10\" VCP Culvert</a>\
 	               </li>\
 	               <li>\
@@ -161,7 +166,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Catch Basins &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-10.html">SW-10 - (N) CB - STD 87,188</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-26.html">SW-26 - (N) CB - STD 87,188</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
