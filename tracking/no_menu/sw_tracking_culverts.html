@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>1164I Tracking - SW Culverts</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,width=device-width">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="../../css/site_styles.css">
+    <link rel="stylesheet" href="../tracking.css">
+    <link rel="stylesheet" href="../../funding/funding.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="../../legend/1164I_fav.png" />
+    <script src="../../js/top_nav_bar.js"></script>
+    <script src="../../data/1164I_101_sewer_lines_0.js"></script>
+    <script src="../../data/1164I_101_sewer_points_1.js"></script>
+    <script src="../../data/1164I_200_flatwork_polygons.js"></script>    
+    <script src="../../js/misc_payment_functions.js"></script>
+    <script src="../../submittals/submittal_log.js"></script>  
+    <script src="../sw_tracking_culverts.js"></script>
+    <script src="../../data/1164I_base_sov.js"></script>
+</head>
+
+<body>
+  <table class="track_table no_menu" id="tracking_table">
+    <script>
+      document.getElementById("tracking_table").innerHTML += tracking_table_generator_sw_culverts();
+    </script>
+  </table>
+</body>
+
+</html>
