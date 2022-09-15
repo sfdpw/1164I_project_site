@@ -153,6 +153,19 @@ function generate_funding_table(pp_no) {
                             ".html\" target=\"_blank\">" + base_sov[ii]['bid_item'] + "</td>";
                                   
            }
+  
+        else if (base_sov[ii].worksheet == 3)
+        
+          {
+                    
+            return_block += '<td class="funding_td"\
+                             data-toogle="tooltip" title="' + base_sov[ii]['description'] +
+                            ' (' + base_sov[ii]['unit'] + ')"' +
+                            'style="text-align:center; text-decoration: underline;">' +
+                            "<a href=\"..\\qty/" + 'qty_' + base_sov[ii]['bid_item'].replace(/ /g,"_") + 
+                            ".html\" target=\"_blank\">" + base_sov[ii]['bid_item'] + "</td>";
+                                  
+           }  
            
         else
         

@@ -98,13 +98,43 @@ function unpack_flatwork_feature_description(property_filters)
         
            output_L_desc = 'Temporary Retroflective Pavement Markings';
          
-         } else if (property_filters == 'R-4')
+         } else if (property_filters == 'R-2')
+
+        {
+
+            output_L_desc = 'Full Depth Planning per 2in Depth of Cut';
+
+        } else if (property_filters == 'R-3')
+
+        {
+
+            output_L_desc = 'Hot Mix Asphalt';
+
+        } else if (property_filters == 'R-4')
 
         {
 
             output_L_desc = '8-Inch Thick Concrete Base';
 
-        }  else if (property_filters == 'R-9')
+        } else if (property_filters == 'R-6')
+
+        {
+
+            output_L_desc = '8-Inch Thick Concrete Pavement, Parking Strip or Gutter';
+
+        } else if (property_filters == 'R-7')
+
+        {
+
+            output_L_desc = '10-Inch Thick Concrete Bus Pad';
+
+        } else if (property_filters == 'R-8')
+
+        {
+
+            output_L_desc = 'Class II Aggregate Base for Bus Pads';
+
+        } else if (property_filters == 'R-9')
 
         {
 
@@ -116,11 +146,23 @@ function unpack_flatwork_feature_description(property_filters)
 
             output_L_desc = '6-Inch Wide Concrete Curb';
 
+        } else if (property_filters == 'R-11')
+
+        {
+
+            output_L_desc = '4-Inch Wide Concrete Curb';
+
         } else if (property_filters == 'R-12')
 
         {
 
             output_L_desc = 'Reset Existing Granite Curb';
+
+        } else if (property_filters == 'R-23')
+
+        {
+
+            output_L_desc = 'Reset Existing Brick Pavers';
 
         } 
 

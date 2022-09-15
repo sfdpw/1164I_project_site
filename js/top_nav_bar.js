@@ -78,10 +78,22 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_G-01.html">G-01: Temp. Striping</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: Grinding</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-03.html">R-03: Paving</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-04.html">R-04: 8in Conc. Base</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-07.html">R-07: 10in Bus Pad</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-08.html">R-08: Agg Base for Bus Pads</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -105,6 +117,20 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-14.html">R-14: Curb Ramp</a>\
+	               </li>\
+	             </ul>\
+	           </li>\
+	           <li>\
+	             <a class="dropdown-item" href="#">Change Order &raquo;</a>\
+	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_CO-01_-_PCO-01_-_R-09.html">CO-01 - PCO-01 - R-09: 3.5in Sidewalk at 19 Mirabel Ave</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_CO-01_-_PCO-01_-_R-12.html">CO-01 - PCO-01 - R-12: Reset (E) Granite Curb at 19 Mirabel Ave</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_CO-01_-_PCO-01_-_R-23.html">CO-01 - PCO-01 - R-23: Reset (E) Brick Pavers at 19 Mirabel Ave</a>\
 	               </li>\
 	             </ul>\
 	           </li>\

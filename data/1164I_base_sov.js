@@ -3,37 +3,12 @@
 [
  {
   'bid_item': 'G-1',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': 'TEMPORARY RETROFLECTIVE PAVEMENT MARKINGS',
   'unit': 'LF',
   'contract_qty': 2400,
   'unit_price':1,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'G-01', 1)
   },
 
  {
@@ -154,7 +129,7 @@
                                    'PP02':0.00,
                                    'PP03':0.00,    
                                    'PP04':12967.50,   
-                                   'PP05':0.00,    
+                                   'PP05':53722.50,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 
                                    'PP08':0.00,                               
@@ -178,72 +153,22 @@
 
  {
   'bid_item': 'R-2',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': 'FULL DEPTH PLANING PER 2-INCH DEPTH OF CUT',
   'unit': 'SF',
   'contract_qty': 143167,
   'unit_price':0.3,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-02', 0.3)
   },
 
  {
   'bid_item': 'R-3',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': 'HOT MIX ASPHALT (TYPE A, ½-INCH MAXIMUM WITH MEDIUM GRADING)',
   'unit': 'US SHORT TON',
   'contract_qty': 2034,
   'unit_price':190,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-03', 190)
   },
 
  {
@@ -338,37 +263,12 @@
 
  {
   'bid_item': 'R-8',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': 'AGGREGATE BASE CLASS II FOR BUS PAD',
   'unit': 'CY',
   'contract_qty': 81,
   'unit_price':250,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-08', 250)
   },
 
  {
@@ -654,7 +554,7 @@
                                    'PP02':0.00,
                                    'PP03':0.00,    
                                    'PP04':31000,   
-                                   'PP05':0.00,    
+                                   'PP05':31000,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 
                                    'PP08':0.00,                               
@@ -736,7 +636,7 @@
                                    'PP02':19350,
                                    'PP03':22500,    
                                    'PP04':0.00,   
-                                   'PP05':12000,    
+                                   'PP05':12750,    
                                    'PP06':0.00,                               
                                    'PP07':0.00, 
                                    'PP08':0.00,                               
@@ -772,7 +672,7 @@
                                    'PP03':49300,    
                                    'PP04':0.00,   
                                    'PP05':7250,    
-                                   'PP06':0.00,                               
+                                   'PP06':111650,                               
                                    'PP07':0.00, 
                                    'PP08':0.00,                               
                                    'PP09':0.00,      
@@ -1814,6 +1714,106 @@
                                    'PP10':0.00
                                    }
                       }
-  }
+  },
+  
+ {
+  'bid_item': 'CO-01 - PCO-01 - R-09',
+  'worksheet': 3,
+  'description': '3.5 in Sidewalk at 19 Mirabel Ave',
+  'unit': 'SF',
+  'contract_qty': 36,
+  'unit_price':13,
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'CO-01 - PCO-01 - R-09', 13)
+  },
+  
+  {
+  'bid_item': 'CO-01 - PCO-01 - R-12',
+  'worksheet': 3,
+  'description': 'Reset (E) Granite Curb at 19 Mirabel Ave',
+  'unit': 'LF',
+  'contract_qty': 20,
+  'unit_price':115,
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'CO-01 - PCO-01 - R-12', 115)
+  },
+  
+  {
+  'bid_item': 'CO-01 - PCO-01 - R-19',
+  'worksheet': 0,
+  'description': 'Adjust (E) Casting at 19 Mirabel Ave',
+  'unit': 'EA',
+  'contract_qty': 1,
+  'unit_price':50,
+  'payment_history': {
+                      'SFPW-ESH': {
+                                   'PP01':0.00,
+                                   'PP02':0.00,
+                                   'PP03':0.00,    
+                                   'PP04':0.00,   
+                                   'PP05':0.00,    
+                                   'PP06':0.00,                               
+                                   'PP07':0.00, 
+                                   'PP08':0.00,                               
+                                   'PP09':0.00,      
+                                   'PP10':0.00
+                                   },
+                      'SFPUC-SW': {
+                                   'PP01':0.00,
+                                   'PP02':0.00,
+                                   'PP03':0.00,    
+                                   'PP04':0.00,   
+                                   'PP05':0.00,    
+                                   'PP06':0.00,                               
+                                   'PP07':0.00, 
+                                   'PP08':0.00,                               
+                                   'PP09':0.00,      
+                                   'PP10':0.00
+                                   }
+                      }
+  },
+  
+  {
+  'bid_item': 'CO-01 - PCO-01 - R-23',
+  'worksheet': 3,
+  'description': 'Reset (E) Brick Pavers at 19 Mirabel Ave',
+  'unit': 'SF',
+  'contract_qty': 25,
+  'unit_price':50,
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'CO-01 - PCO-01 - R-23', 50)
+  },
+  
+  {
+  'bid_item': 'CO-01 - PCO-01 - R-24',
+  'worksheet': 0,
+  'description': 'Traffic Control for Flatwork at 19 Mirabel Ave',
+  'unit': 'LS',
+  'contract_qty': 1,
+  'unit_price':2000,
+  'payment_history': {
+                      'SFPW-ESH': {
+                                   'PP01':0.00,
+                                   'PP02':0.00,
+                                   'PP03':0.00,    
+                                   'PP04':0.00,   
+                                   'PP05':2000,    
+                                   'PP06':0.00,                               
+                                   'PP07':0.00, 
+                                   'PP08':0.00,                               
+                                   'PP09':0.00,      
+                                   'PP10':0.00
+                                   },
+                      'SFPUC-SW': {
+                                   'PP01':0.00,
+                                   'PP02':0.00,
+                                   'PP03':0.00,    
+                                   'PP04':0.00,   
+                                   'PP05':0.00,    
+                                   'PP06':0.00,                               
+                                   'PP07':0.00, 
+                                   'PP08':0.00,                               
+                                   'PP09':0.00,      
+                                   'PP10':0.00
+                                   }
+                      }
+  },
 
 ]

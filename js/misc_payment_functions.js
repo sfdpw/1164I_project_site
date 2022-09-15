@@ -103,7 +103,7 @@ function qty_or_blank(input_num, unit) {
 
     {
 
-        if (unit == 'LF' || unit == 'SF' || unit == 'CY' || unit == 'TON')
+        if (unit == 'LF' || unit == 'SF' || unit == 'CY' || unit == 'US SHORT TON')
 
         {
 

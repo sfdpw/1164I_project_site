@@ -1,8 +1,8 @@
-function qty_table_generator_flatwork_with_qty_id(qty_bid_item) {
+function qty_table_generator_flatwork_CO(qty_bid_item) {
 
     var NN = 0; // bid item index
 
-    while (base_sov[NN]['bid_item'] != qty_bid_item.replace('R-0','R-').replace('G-0','G-')) {
+    while (base_sov[NN]['bid_item'] != qty_bid_item) {
         NN++;
         
     }
