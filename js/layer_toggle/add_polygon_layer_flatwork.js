@@ -33,7 +33,7 @@ function flatwork_layer_toggle(layer_index, master_layer_array, local_json_layer
               //  }
 
 
-                if (local_json_layer_obj['features'][ii].properties.inst_id.substring(0,4) == property_filters.substring(0,4))
+                if (local_json_layer_obj['features'][ii].properties.inst_id.substring(0,5) == property_filters.substring(0,5).replace(':','-'))
 
                 {
 
@@ -157,6 +157,12 @@ function unpack_flatwork_feature_description(property_filters)
         {
 
             output_L_desc = 'Reset Existing Granite Curb';
+
+        } else if (property_filters == 'R-12A')
+
+        {
+
+            output_L_desc = 'Install New Granite Curb';
 
         } else if (property_filters == 'R-23')
 

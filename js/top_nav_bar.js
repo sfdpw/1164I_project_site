@@ -90,6 +90,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-04.html">R-04: 8in Conc. Base</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-06.html">R-06: 8in Conc. Pavement, Parking Strip or Gutter</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-07.html">R-07: 10in Bus Pad</a>\
 	               </li>\
 	               <li>\
@@ -113,10 +116,16 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-12.html">R-12: Reset (E) Granite Curb</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-12A.html">R-12A: Install (N) Granite Curb</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-13.html">R-13: Combined Curb/Gutter</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-14.html">R-14: Curb Ramp</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-15.html">R-15: Type I PB</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
