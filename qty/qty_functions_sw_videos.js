@@ -16,11 +16,11 @@ function qty_table_generator_sw_videos(qty_bid_item) {
                  '<thead class="qty_thead">\
                     <tr class="qty_tr">\
                         <th class="qty_thead" rowspan="2" style="text-align:left; padding:5px">Address / Location</th>\
-                        <th class="qty_thead" rowspan="2" style="text-align:center; padding:5px;">Asset ID</th>\
+                        <th class="qty_thead" rowspan="2" style="text-align:left; padding:5px;">Asset ID</th>\
                         <th class="qty_thead" rowspan="2" style="text-align:center; padding:5px;">Block Lot</th>\
                         <th class="qty_thead" rowspan="2" style="text-align:center; padding:5px;">Submittal</th>\
                         <th class="qty_thead" rowspan="2" style="text-align:center; padding:5px;">Video</th>\
-                        <th class="qty_thead" rowspan="2" style="text-align:center; padding:5px;">Response</th>\
+                        <th class="qty_thead" rowspan="2" style="text-align:left; padding:5px;">Response</th>\
                         <th class="qty_thead" colspan="2" style="text-align:center">Total</th>\
                         <th class="qty_thead" colspan="2" style="text-align:center">SFPW - ESH</th>\
                         <th class="qty_thead" colspan="2" style="text-align:center">SFPUC - SW</th>\
@@ -154,7 +154,7 @@ function qty_table_generator_sw_videos(qty_bid_item) {
                         '<tr class="qty_tr">\
                         <td class="qty_td" style="text-align:left; padding:5px">' +
                         line_instance_extracted_details[0] + '</td>\
-                        <td class="qty_td" style="text-align:center; padding:5px">' +
+                        <td class="qty_td" style="text-align:left; padding:5px">' +
                         line_instance_extracted_details[1] + '</td>\
                         <td class="qty_td" style="text-align:center; padding:5px">' +
                         line_instance_extracted_details[2][0] + '</td>\
@@ -162,7 +162,7 @@ function qty_table_generator_sw_videos(qty_bid_item) {
                         line_instance_extracted_details[2][1][0] + '</td>\
                         <td class="qty_td" style="text-align:center; padding:5px">' +
                         line_instance_extracted_details[2][1][1] + '</td>\
-                        <td class="qty_td" style="text-align:center; padding:5px">' +
+                        <td class="qty_td" style="text-align:left; padding:5px">' +
                         line_instance_extracted_details[2][1][2] + '</td>\
                         <td class="qty_td" style="text-align:right; padding:5px">' +
                         qty_or_blank(line_instance_extracted_details[3], base_sov[NN].unit) + '</td>\
