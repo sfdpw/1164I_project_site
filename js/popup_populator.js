@@ -52,7 +52,7 @@ function popup_sheet_entry_creator(popup_args = null)
             {
 
 
-                if (file_name.includes('SFPW_STD_'))
+                if (file_name.includes('SFPW_STD_') || file_name.includes('SFMTA_STR_'))
 
                 {
 

@@ -22,6 +22,7 @@ var SFPW_R_STD = [
                    'R-G2',,'General Notes',
                    'T-01',,'(E) Striping Plan',
                    'T-02',,'(E) Striping Plan',
+                   'SFMTA_STR_7687',,'Speed Cushion',
                    'SFPW_STD_87168',,'Planing',
                    'SFPW_STD_87169',,'Curb',
                    'SFPW_STD_87170',,'Comb. Parking Strip / Gutter',             
