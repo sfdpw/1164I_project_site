@@ -130,7 +130,7 @@ function tracking_table_generator_sw_laterals(asset_type) {
    
      {
      
-      console.log(sw_lateral_row[10])     
+      //console.log(sw_lateral_row[10])     
       sw_lateral_row[13] = json_submittals[sw_lateral_row[10]].dates.cm_to_cnt;
       
       }
