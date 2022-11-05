@@ -102,6 +102,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-08.html">R-08: Agg Base for Bus Pads</a>\
 	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-17.html">R-17: HMA Speed Hump / Cushion</a>\
+	               </li>\
 	             </ul>\
 	           </li>\
 	           <li>\

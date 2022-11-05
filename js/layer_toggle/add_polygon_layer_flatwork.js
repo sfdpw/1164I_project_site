@@ -164,6 +164,30 @@ function unpack_flatwork_feature_description(property_filters)
 
             output_L_desc = 'Install New Granite Curb';
 
+        } else if (property_filters == 'R-13')
+
+        {
+
+            output_L_desc = 'Combined Curb and Gutter';
+
+        } else if (property_filters == 'R-14')
+
+        {
+
+            output_L_desc = 'Curb Ramp';
+
+        } else if (property_filters == 'R-15')
+
+        {
+
+            output_L_desc = 'Type I Pullbox';
+
+        } else if (property_filters == 'R-17')
+
+        {
+
+            output_L_desc = 'HMA Speed Hump / Cushion';
+
         } else if (property_filters == 'R-23')
 
         {

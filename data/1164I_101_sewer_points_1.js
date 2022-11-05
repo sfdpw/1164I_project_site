@@ -100,9 +100,9 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-338802", "id_b": "275900", "location": "Bottom of Aztec St Stairs", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415094707307205, 37.74551702105628 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415443", "id_b": "317949", "location": "Manchester St, North of Stoneman St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41421558105705, 37.745221904427943 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415443", "id_b": "317949", "location": "Manchester St, North of Stoneman St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41421558105705, 37.745221904427943 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415442", "id_b": "317950", "location": "Fronting 71 Manchester St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414279758635416, 37.745889461697914 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415442", "id_b": "317950", "location": "Fronting 71 Manchester St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414279758635416, 37.745889461697914 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415441", "id_b": "317951", "location": "Manchester St, South of Bessie St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414349028232749, 37.746674632592352 ] } },
 
@@ -118,13 +118,17 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-24267", "id_b": "23672", "location": "Mullen Ave and Alabama St Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.410585374878252, 37.746355746695784 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415456", "id_b": "317961", "location": "Mullen Ave, East of Alabama St Inersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.410416144245133, 37.746347562248943 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415456", "id_b": "317961", "location": "Mullen Ave, East of Alabama St Inersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.410416144245133, 37.746347562248943 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415459", "id_b": "317962", "location": "Mullen Ave, West of Peralta St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409269746810509, 37.746411658386776 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-421471", "id_b": "326737", "location": "Fronting 15 Mullen Ave", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.410164934297995, 37.74636160763351 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415457", "id_b": "317960", "location": "Mullen Ave and Peralta St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409071415895554, 37.746422161078605 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-38389", "id_b": "23597", "location": "30th St, West of Mission St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.422191590092112, 37.742374513368567 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415458", "id_b": "317959", "location": "Peralta St, South of Mullen Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409066759055492, 37.746339113286574 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415459", "id_b": "317962", "location": "Mullen Ave, West of Peralta St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409269746810509, 37.746411658386776 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-415457", "id_b": "317960", "location": "Mullen Ave and Peralta St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409071415895554, 37.746422161078605 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-415458", "id_b": "317959", "location": "Peralta St, South of Mullen Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409066759055492, 37.746339113286574 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-50753", "id_b": "162908", "location": "Mullen Ave and Peralta St Intersection - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408933248701388, 37.74646653002457 ] } },
 
