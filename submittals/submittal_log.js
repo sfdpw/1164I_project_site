@@ -162,6 +162,27 @@ var json_submittals = {
  'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
 },
 
+'150': {
+ 'description':'-',
+ 'type':'-',
+ 'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '11/15/2022' },
+ 'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
+},
+
+'151': {
+ 'description':'-',
+ 'type':'-',
+ 'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '11/15/2022' },
+ 'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
+},
+
+'152': {
+ 'description':'-',
+ 'type':'-',
+ 'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '11/15/2022' },
+ 'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
+},
+
 '153': {
  'description':'-',
  'type':'-',

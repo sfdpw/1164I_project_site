@@ -142,7 +142,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-34818", "id_b": "22408", "location": "Peralta Ave and Franconia St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408467217597277, 37.746931600929038 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "unknown_catch_basin_sw_13_001", "id_b": "-", "location": "Peralta Ave and Franconia St Intersection - SWC", "type": "CB", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408520756397834, 37.746850973763678 ] } },
+{ "type": "Feature", "properties": { "id_a": "unknown_catch_basin_sw_13_001", "id_b": "-", "location": "Peralta Ave and Franconia St Intersection - SWC", "type": "CB", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408520756397834, 37.746850973763678 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-66224", "id_b": "164504", "location": "Peralta Ave and Franconia St Intersection - North", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.40850434638574, 37.746974924144901 ] } },
 
