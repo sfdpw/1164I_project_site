@@ -623,72 +623,22 @@
 
  {
   'bid_item': 'SW-7',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': '18-INCH DIAMETER VCP SEWER ON CRUSHED ROCK BEDDING WRAPPED IN GEOTEXTILE  FABRIC',
   'unit': 'LF',
   'contract_qty': 206,
   'unit_price':390,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-07', 390)
   },
 
  {
   'bid_item': 'SW-8',
-  'worksheet': 0,
+  'worksheet': 1,
   'description': '21-INCH DIAMETER VCP SEWER ON CRUSHED ROCK BEDDING WRAPPED IN GEOTEXTILE  FABRIC',
   'unit': 'LF',
   'contract_qty': 213,
   'unit_price':440,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_lines_0'], 'SW-08', 440)
   },
 
  {
