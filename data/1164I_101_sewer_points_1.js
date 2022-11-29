@@ -22,9 +22,9 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-341572", "id_b": "282344", "location": "Eugenia Ave and Bonview St Intersection - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418338300142238, 37.74075716117693 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415386", "id_b": "317919", "location": "Andover St and Benton Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41694927812739, 37.733922030932249 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415386", "id_b": "317919", "location": "Andover St and Benton Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41694927812739, 37.733922030932249 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415387", "id_b": "317918", "location": "Fronting 779 Andover St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41698254659714, 37.733496181707856 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415387", "id_b": "317918", "location": "Fronting 779 Andover St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41698254659714, 37.733496181707856 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-73230", "id_b": "1296", "location": "Fronting 789 Andover St (End)", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416995278871184, 37.733313166479569 ] } },
 
@@ -38,7 +38,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-415399", "id_b": "317924", "location": "Ellsworth St and Ogden Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414847390492454, 37.735973708857316 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415398", "id_b": "317925", "location": "Fronting 645 Ellsworth St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414903789424599, 37.735397933727057 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415398", "id_b": "317925", "location": "Fronting 645 Ellsworth St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414903789424599, 37.735397933727057 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-22423", "id_b": "26579", "location": "Ellsworth St and Crescent Ave Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414963155339493, 37.734806328317212 ] } },
 
@@ -76,7 +76,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-35823", "id_b": "23473", "location": "Coso Ave and Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416691121354134, 37.745495596384906 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-418680", "id_b": "322303", "location": "Coso Ave and Winfield St Intersection - SWC", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP05": { "SFPW-ESH": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416743931637001, 37.745472293086138 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-418680", "id_b": "322303", "location": "Coso Ave and Winfield St Intersection - SWC", "type": "CB", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP05": { "SFPW-ESH": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416743931637001, 37.745472293086138 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-50564", "id_b": "162380", "location": "Coso Ave and Winfield St Intersection - SEC", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416648406808378, 37.745450492119538 ] } },
 
@@ -136,13 +136,13 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-50752", "id_b": "162909", "location": "Mullen Ave and Peralta St Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409100599390385, 37.746360759373218 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415468", "id_b": "317965", "location": "Peralta Ave, West of Florida St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408943286469793, 37.746693246157477 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415468", "id_b": "317965", "location": "Peralta Ave, West of Florida St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408943286469793, 37.746693246157477 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-417196", "id_b": "319970", "location": "Peralta Ave, West of Franconia St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408579772412963, 37.746864810737726 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-417196", "id_b": "319970", "location": "Peralta Ave, West of Franconia St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408579772412963, 37.746864810737726 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-34818", "id_b": "22408", "location": "Peralta Ave and Franconia St Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408467217597277, 37.746931600929038 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "unknown_catch_basin_sw_13_001", "id_b": "-", "location": "Peralta Ave and Franconia St Intersection - SWC", "type": "CB", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408520756397834, 37.746850973763678 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-421846", "id_b": "327123", "location": "Peralta Ave and Franconia St Intersection - SWC", "type": "CB", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP08": { "SFPW-ESH": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408520756397834, 37.746850973763678 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-66224", "id_b": "164504", "location": "Peralta Ave and Franconia St Intersection - North", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.40850434638574, 37.746974924144901 ] } },
 
