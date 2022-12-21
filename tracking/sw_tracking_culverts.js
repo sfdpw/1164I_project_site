@@ -175,32 +175,39 @@ function tracking_table_generator_sw_culverts(asset_type) {
 
    else if (sw_culvert_row[4].includes('Replace (E) as Directed') && sw_culvert_row[9] != 'Do Not Replace')
    
-     {
+     { if ( sw_culvert_row[5] == 'Scope Deleted')  {  sw_culvert_row[0] = 'J';}
+        
+       else
+       
+          { 
      
-      if (sw_culvert_row[12] == 'MCN' || sw_culvert_row[12] == 'NET' )
-      
-        {
-        
-         sw_culvert_row[0] = 'H';
-         
-        }
-        
-      else if (sw_culvert_row[12] == 'R&R' )
-      
-        {
-        
-         sw_culvert_row[0] = 'E';
-         
-        }
-        
-   
-      else 
-          
-            {
-            
-             sw_culvert_row[0] = 'B';
-        
-             }
+    
+     
+	      if (sw_culvert_row[12] == 'MCN' || sw_culvert_row[12] == 'NET' )
+	      
+		{
+		
+		 sw_culvert_row[0] = 'H';
+		 
+		}
+		
+	      else if (sw_culvert_row[12] == 'R&R' )
+	      
+		{
+		
+		 sw_culvert_row[0] = 'E';
+		 
+		}
+		
+	   
+	      else 
+		  
+		    {
+		    
+		     sw_culvert_row[0] = 'B';
+		
+		     }
+           }
      
       }      
       
@@ -208,7 +215,7 @@ function tracking_table_generator_sw_culverts(asset_type) {
     
       {
       
-       if ( sw_culvert_row[6][0] != '' )
+       if ( sw_culvert_row[6][0].includes('SW-29') )
        
          {
          

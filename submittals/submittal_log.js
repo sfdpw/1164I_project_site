@@ -252,6 +252,13 @@ var json_submittals = {
  'type':'-',
  'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '12/13/2022' },
  'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
+},
+
+'165': {
+ 'description':'-',
+ 'type':'-',
+ 'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '12/19/2022' },
+ 'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
 }
 
 

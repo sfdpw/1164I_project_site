@@ -187,29 +187,35 @@ function tracking_table_generator_sw_laterals(asset_type) {
    
      {
      
-      if (sw_lateral_row[12] == 'MCN' || sw_lateral_row[12] == 'NET' )
-      
-        {
-        
-         sw_lateral_row[0] = 'H';
-         
-        }
-        
-      else if (sw_lateral_row[12] == 'R&R' )
-      
-        {
-        
-         sw_lateral_row[0] = 'E';
-         
-        }
-        
-   
-      else 
+          if ( sw_lateral_row[5] == 'Scope Deleted')  {  sw_lateral_row[0] = 'J';}
           
-            {
-            
-             sw_lateral_row[0] = 'B';
-        
+             else {
+     
+	      if (sw_lateral_row[12] == 'MCN' || sw_lateral_row[12] == 'NET' )
+	      
+		{
+		
+		 sw_lateral_row[0] = 'H';
+		 
+		}
+		
+	      else if (sw_lateral_row[12] == 'R&R' )
+	      
+		{
+		
+		 sw_lateral_row[0] = 'E';
+		 
+		}
+		
+	   
+	      else 
+		  
+		    {
+		    
+		     sw_lateral_row[0] = 'B';
+		
+		     }
+      
              }
      
       }      

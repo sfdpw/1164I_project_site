@@ -87,7 +87,7 @@ function SW_lateral_layer_styler(feature) {
                     dashArray: dash_code,
                     lineCap: 'round',
                     lineJoin: 'round',
-                    weight: 4.0,
+                    weight: status_line_weight,
                     fillOpacity: 0,
                     interactive: true,
             }
@@ -101,7 +101,7 @@ function SW_lateral_layer_styler(feature) {
                     dashArray: dash_code,
                     lineCap: 'round',
                     lineJoin: 'round',
-                    weight: 4.0,
+                    weight: status_line_weight,
                     fillOpacity: 0,
                     interactive: true,
             }
@@ -144,7 +144,7 @@ function SW_lateral_layer_styler(feature) {
                     dashArray: dash_code,
                     lineCap: 'round',
                     lineJoin: 'round',
-                    weight: 4.0,
+                    weight: status_line_weight,
                     fillOpacity: 0,
                     interactive: true,
             }
@@ -158,7 +158,7 @@ function SW_lateral_layer_styler(feature) {
                     dashArray: dash_code,
                     lineCap: 'round',
                     lineJoin: 'round',
-                    weight: 4.0,
+                    weight: status_line_weight,
                     fillOpacity: 0,
                     interactive: true,
             }

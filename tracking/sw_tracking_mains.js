@@ -166,6 +166,15 @@ function tracking_table_generator_sw_mains(asset_type) {
          
         }
         
+        
+      else if (sw_main_row[5] == 'Scope Deleted')
+      
+       { 
+       
+         sw_main_row[0] = 'J'; 
+         
+       }  
+        
       else
       
         {

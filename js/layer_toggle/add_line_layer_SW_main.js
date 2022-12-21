@@ -83,6 +83,20 @@ function SW_main_layer_styler(feature) {
             }
             break;
 
+        case 'Scope Deleted':
+            return {
+                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+                    opacity: 1,
+                    color: feature.rgba_code_stored_in_each_feature,
+                    dashArray: '10, 10',
+                    lineCap: 'round',
+                    lineJoin: 'round',
+                    weight: 4.0,
+                    fillOpacity: 0,
+                    interactive: true,
+            }
+            break;
+
         case 'Pre-Construction':
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
