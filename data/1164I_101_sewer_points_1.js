@@ -36,7 +36,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-296907", "id_b": "256069", "location": "Andover St and Benton Ave Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417033391107225, 37.733887350153637 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415399", "id_b": "317924", "location": "Ellsworth St and Ogden Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414847390492454, 37.735973708857316 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415399", "id_b": "317924", "location": "Ellsworth St and Ogden Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP09": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414847390492454, 37.735973708857316 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415398", "id_b": "317925", "location": "Fronting 645 Ellsworth St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414903789424599, 37.735397933727057 ] } },
 
