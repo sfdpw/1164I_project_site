@@ -56,6 +56,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP06.html">PP06 - Sep 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP07.html">PP07 - Oct 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP08.html">PP08 - Nov 2022</a>\
+		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP09.html">PP09 - Dec 2022</a>\
 	         </ul>\
 	       </li>\
 	       <li>\
@@ -70,6 +71,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP06.html">PP06 - Sep 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP07.html">PP07 - Oct 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP08.html">PP08 - Nov 2022</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP09.html">PP09 - Dec 2022</a>\
 	         </ul>\
 	       </li>\
 	     </ul>\
