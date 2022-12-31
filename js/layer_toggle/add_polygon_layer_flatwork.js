@@ -194,6 +194,12 @@ function unpack_flatwork_feature_description(property_filters)
 
             output_L_desc = 'Reset Existing Brick Pavers';
 
+        } else if (property_filters == 'SW-30')
+
+        {
+
+            output_L_desc = 'Concrete Base Restoration outside Sewer Trench Limits';
+
         } 
 
         return output_L_desc

@@ -133,7 +133,7 @@
                                    'PP06':22230,                               
                                    'PP07':7410, 
                                    'PP08':37050,                               
-                                   'PP09':0.00,      
+                                   'PP09':9880,      
                                    'PP10':0.00
                                    },
                       'SFPUC-SW': {
@@ -540,7 +540,7 @@
                                    'PP06':1500,                               
                                    'PP07':30000, 
                                    'PP08':28500,                               
-                                   'PP09':0.00,      
+                                   'PP09':12000,      
                                    'PP10':0.00
                                    }
                       }
@@ -575,7 +575,7 @@
                                    'PP06':4350,                               
                                    'PP07':66700, 
                                    'PP08':63800,                               
-                                   'PP09':0.00,      
+                                   'PP09':14500,      
                                    'PP10':0.00
                                    }
                       }
@@ -1078,37 +1078,12 @@
 
  {
   'bid_item': 'SW-30',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '**RECONSTRUCT PAVEMENT OUTSIDE OF SEWER T-TRENCH LIMIT AND OUTSIDE OF CONCRETE BASE WORK UNDER R-DRAWINGS WITH 8-INCH THICK CONCRETE BASE NECESSARY  PER EXCAVATION  CODE AS DIRECTED BY THE CITY REPRESENTATIVE (CONTINGENCY  BID ITEM)',
   'unit': 'SF',
   'contract_qty': 6800,
   'unit_price':14,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'SW-30', 14)
   },
 
  {

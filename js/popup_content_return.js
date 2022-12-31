@@ -222,7 +222,7 @@ function pop_up_creator_for_domain(feature, layer)
     } 
     
     else if (layer.feature.L_index_stored_in_each_feature >= R_fltwrk_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature <= R_fltwrk_index_limits[1])
+        layer.feature.L_index_stored_in_each_feature < R_fltwrk_index_limits[1])
 
     {
 
@@ -237,15 +237,32 @@ function pop_up_creator_for_domain(feature, layer)
             unpack_flatwork_feature_description(bid_item_code) +
             '<br><br>'; 
             
-    //      if (bid_item_code == 'R-15')
-          
-    //        {
-            
-    //         popupContent += '<strong>Utility</strong><br>'+
-    //                          feature.properties.UTILITY + '<br><br>';
-             
-    //         }
-            
+        popupContent +=
+            '<strong>Status</strong><br>' +
+            feature.properties.status + '<br><br>' +
+           '<strong>Relevant Documents</strong><br>' +
+            feature.properties.rlvnt +
+            '<br><br>' + areacalcs +
+            '<strong>Payment History</strong><br>';
+
+        popupContent += pp_history_details(feature);
+
+    }  
+
+    else if (layer.feature.L_index_stored_in_each_feature == R_fltwrk_index_limits[1]) // For SW-30 Only
+
+    {
+
+        var bid_item_code = feature.properties.inst_id.substring(0, 5);
+
+        var areacalcs = '';
+
+        var popupContent =
+            '<strong>Instance Id</strong><br>' +
+            feature.properties.inst_id.replace(/_/g, "-") + '<br><br>' +
+            '<strong>Description</strong><br>' +
+            unpack_flatwork_feature_description(bid_item_code) +
+            '<br><br>'; 
             
         popupContent +=
             '<strong>Status</strong><br>' +
