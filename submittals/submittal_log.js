@@ -344,6 +344,27 @@ var json_submittals = {
  'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
 },
 
+'175': {
+ 'description':'-',
+ 'type':'-',
+ 'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '1/31/2023' },
+ 'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
+},
+
+'176': {
+ 'description':'-',
+ 'type':'-',
+ 'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '1/30/2023' },
+ 'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
+},
+
+'177': {
+ 'description':'-',
+ 'type':'-',
+ 'dates': { 'cnt_to_cm': '-', 'cm_to_dsn': '-', 'dsn_to_cm': '-', 'cm_to_cnt': '1/30/2023' },
+ 'response': {'general': {'desc':'-','resp':'-' }, 'item_01': {'desc':'-','resp':'-' }, 'item_02': {'desc': '-'} },
+},
+
 // work here
 
 
