@@ -57,6 +57,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP07.html">PP07 - Oct 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP08.html">PP08 - Nov 2022</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP09.html">PP09 - Dec 2022</a>\
+		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP10.html">PP10 - Jan 2023</a>\
 	         </ul>\
 	       </li>\
 	       <li>\
@@ -72,6 +73,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP07.html">PP07 - Oct 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP08.html">PP08 - Nov 2022</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP09.html">PP09 - Dec 2022</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP10.html">PP10 - Jan 2023</a>\
 	         </ul>\
 	       </li>\
 	     </ul>\
@@ -166,6 +168,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Side Sewers, Culverts &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-15.html">SW-15 - Ream before Lining (E) Main</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-17.html">SW-17 - Side Sewer Bypass During Sewer Main Lining</a>\
 	               </li>\
 	               <li>\
@@ -204,13 +209,19 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-08.html">SW-08 - (N) 21" VCP SW Main</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-09.html">SW-09 - Line (E) 8" VCP SW Main</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-09.html">SW-09 - Line (E) 8" SW Main</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-10.html">SW-10 - Line (E) 10" VCP SW Main</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-10.html">SW-10 - Line (E) 10" SW Main</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-11.html">SW-11 - Line (E) 12" VCP SW Main</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-11.html">SW-11 - Line (E) 12" SW Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-12.html">SW-12 - Line (E) 15" SW Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-13.html">SW-13 - Line (E) 21" SW Main</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-28.html">SW-28 - Post-Con TVI of (N) SW Mains</a>\

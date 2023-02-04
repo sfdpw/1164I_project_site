@@ -160,11 +160,11 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-36883", "id_b": "23511", "location": "Stoneman St and Shotwell St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414949193686738, 37.745063032087877 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-418695", "id_b": "322332", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415049920334695, 37.744997175371722 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-418695", "id_b": "322332", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP10": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415049920334695, 37.744997175371722 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-418696", "id_b": "322331", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415279496286601, 37.744955220340778 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-418696", "id_b": "322331", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP10": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415279496286601, 37.744955220340778 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-418697", "id_b": "322330", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415527568938273, 37.744987956204689 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-418697", "id_b": "322330", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP10": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415527568938273, 37.744987956204689 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-24345", "id_b": "23503", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Abandon (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415534521855918, 37.7450225384951 ] } },
 
