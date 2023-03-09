@@ -210,6 +210,13 @@ function tracking_table_generator_sw_mains(asset_type) {
             
              }
             
+          else if (sw_main_row[12] == 'No Post Con TVI Needed' )  
+            
+            {
+            
+             sw_main_row[0] = 'L';
+            
+             }
             
           else 
           
@@ -294,7 +301,7 @@ function tracking_table_generator_sw_mains(asset_type) {
     return_block += '<td class="track_td ' + row_shade + '" style="text-align:left">' +   sw_main_table[rr][9] +    '</td>';   
     return_block += '<td class="track_td ' + row_shade + '" style="text-align:center">' + sw_main_table[rr][10] +   '</td>';   
     return_block += '<td class="track_td ' + row_shade + '" style="text-align:center">' + sw_main_table[rr][11] +   '</td>';   
-    return_block += '<td class="track_td ' + row_shade + '" style="text-align:center">' + sw_main_table[rr][12] +   '</td>';   
+    return_block += '<td class="track_td ' + row_shade + '" style="text-align:left">' + sw_main_table[rr][12] +   '</td>';   
     return_block += '<td class="track_td ' + row_shade + '" style="text-align:center">' + sw_main_table[rr][13] +    '</td>';   
     return_block += '</tr>';
    

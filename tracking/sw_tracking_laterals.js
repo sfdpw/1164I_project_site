@@ -157,7 +157,16 @@ function tracking_table_generator_sw_laterals(asset_type) {
    
      {
      
-      if (sw_lateral_row[12] == 'MCN' || sw_lateral_row[12] == 'NET' )
+      if (sw_lateral_row[5] == 'Scope Deleted' )
+     
+     
+        {
+        
+         sw_lateral_row[0] = 'J';
+        
+         }
+     
+      else if (sw_lateral_row[12] == 'MCN' || sw_lateral_row[12] == 'NET' )
       
         {
         
