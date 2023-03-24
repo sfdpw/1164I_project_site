@@ -97,6 +97,23 @@ function SW_MH_layer_styler(feature) {
       }
       break;
 
+    case 'Scope Deleted':
+      return {
+        pane:  'P_'.concat(feature.L_index_stored_in_each_feature),
+          radius: 8.0,
+          opacity: 1,
+          color: 'rgba(35,35,35,1.0)',
+          dashArray: '2, 2',
+          lineCap: 'butt',
+          lineJoin: 'miter',
+          weight: 2,
+          fill: true,
+          fillOpacity: 1,
+          fillColor: feature.rgba_code_stored_in_each_feature,
+          interactive: true,
+      }
+      break;
+
     case 'Post-Construction':
       return {
         pane:  'P_'.concat(feature.L_index_stored_in_each_feature),

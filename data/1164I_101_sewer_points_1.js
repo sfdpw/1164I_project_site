@@ -10,11 +10,11 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-20741", "id_b": "23589", "location": "30th St, East of San Jose Ave Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423127456412672, 37.742314878696043 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-38361", "id_b": "23546", "location": "Virginia Ave, North of Eugenia Ave Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418827263804758, 37.741071785358784 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-38361", "id_b": "23546", "location": "Virginia Ave, North of Eugenia Ave Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Scope Deleted", "pp_history": { "SW-04": { "PP12": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418827263804758, 37.741071785358784 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-415374", "id_b": "317914", "location": "Eugenia Ave, East of Virginia Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418745390101662, 37.740961863536874 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-415374", "id_b": "317914", "location": "Eugenia Ave, East of Virginia Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Scope Deleted", "pp_history": { "SW-03": { "PP12": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418745390101662, 37.740961863536874 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-18534", "id_b": "25064", "location": "Eugenia Ave and Bonview St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418319692918118, 37.740791257137957 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-18534", "id_b": "25064", "location": "Eugenia Ave and Bonview St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Scope Deleted", "pp_history": { "SW-04": { "PP12": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418319692918118, 37.740791257137957 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-391385", "id_b": "297635", "location": "Eugenia Ave and Bonview St Intersection - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418354222896653, 37.740846815621268 ] } },
 
