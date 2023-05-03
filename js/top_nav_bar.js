@@ -60,6 +60,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP10.html">PP10 - Jan 2023</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP11.html">PP11 - Feb 2023</a>\
 		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP12.html">PP12 - Mar 2023</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP13.html">PP13 - Apr 2023</a>\
 	         </ul>\
 	       </li>\
 	       <li>\
@@ -78,6 +79,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP10.html">PP10 - Jan 2023</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP11.html">PP11 - Feb 2023</a>\
 	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP12.html">PP12 - Mar 2023</a>\
+	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP13.html">PP13 - Apr 2023</a>\
 	         </ul>\
 	       </li>\
 	     </ul>\
@@ -92,7 +94,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_G-01.html">G-01: Temp. Striping</a>\
+	                 <a class="dopdown-item" href="' + nav_path + 'qty/qty_G-01.html">G-01: Temp. Striping</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: Grinding</a>\
