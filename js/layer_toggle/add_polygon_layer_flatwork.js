@@ -116,6 +116,12 @@ function unpack_flatwork_feature_description(property_filters)
 
             output_L_desc = '8-Inch Thick Concrete Base';
 
+        } else if (property_filters == 'R-5')
+
+        {
+
+            output_L_desc = '10-Inch Thick Concrete Base';
+
         } else if (property_filters == 'R-6')
 
         {

@@ -96,7 +96,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dopdown-item" href="' + nav_path + 'qty/qty_G-01.html">G-01: Temp. Striping</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_G-01.html">G-01: Temp. Striping</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: Grinding</a>\
@@ -106,6 +106,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-04.html">R-04: 8in Conc. Base</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-05.html">R-05: 10in Conc. Base</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-06.html">R-06: 8in Conc. Pavement, Parking Strip or Gutter</a>\
