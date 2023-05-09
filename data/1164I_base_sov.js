@@ -223,47 +223,12 @@
 
  {
   'bid_item': 'R-5',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '10-INCH THICK CONCRETE BASE',
   'unit': 'SF',
   'contract_qty': 6235,
   'unit_price':15,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00,
-				   'PP11':0.00,
-				   'PP12':0.00,
-				   'PP13':0.00,
-				   'PP14':0.00,
-				   'PP15':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00,
-				   'PP11':0.00,
-				   'PP12':0.00,
-				   'PP13':0.00,
-				   'PP14':0.00,
-				   'PP15':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-05', 15)
   },
 
  {
@@ -378,47 +343,12 @@
 
  {
   'bid_item': 'R-16',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': 'CONSTRUCT AWSS FIRE CISTERN IDENTIFICATION PAVEMENT BRICK RING',
   'unit': 'EA',
   'contract_qty': 1,
   'unit_price':11750,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00,
-				   'PP11':0.00,
-				   'PP12':0.00,
-				   'PP13':0.00,
-				   'PP14':0.00,
-				   'PP15':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00,
-				   'PP11':0.00,
-				   'PP12':0.00,
-				   'PP13':0.00,
-				   'PP14':0.00,
-				   'PP15':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_200_flatwork_polygons'], 'R-16', 11750)
   },
 
  {

@@ -188,6 +188,12 @@ function unpack_flatwork_feature_description(property_filters)
 
             output_L_desc = 'Type I Pullbox';
 
+        } else if (property_filters == 'R-16')
+
+        {
+
+            output_L_desc = 'AWSS Cistern Ring';
+
         } else if (property_filters == 'R-17')
 
         {
