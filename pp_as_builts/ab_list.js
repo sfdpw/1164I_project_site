@@ -74,7 +74,9 @@ var json_ab_list = {
 '1164I_R-09_AB_PP13_b',
 '1164I_R-09_AB_PP13_c',
 '1164I_R-11_AB_PP13',
-'1164I_R-12_AB_PP13'
+'1164I_R-12_AB_PP13',
+'1164I_R-04_AB_PP14',
+'1164I_R-06_AB_PP14'
 
 ], 
  
