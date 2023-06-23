@@ -11,6 +11,8 @@ function qty_table_generator_sw_videos_mains(qty_bid_item) {
 
     var latest_pp = latest_pp_no(base_sov);
 
+    console.log(latest_pp)
+
     var return_block = 
         
                  '<thead class="qty_thead">\

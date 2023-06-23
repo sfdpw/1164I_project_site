@@ -155,46 +155,49 @@ function fixed_qty_or_blank(input_num, unit) {
 
 }
 
-function latest_pp_no(sov_base)
+//function latest_pp_no(sov_base)
 
+function latest_pp_no()
 
 {
 
-    var pp_no = 0;
+//    var pp_no = 0;
 
-    for (const bid_item of sov_base)
+//    for (const bid_item of sov_base)
 
-    {
-
-
-        for (const fund in bid_item['payment_history'])
-
-        {
+//    {
 
 
-            for (const pp_instance in bid_item['payment_history'][fund])
+//        for (const fund in bid_item['payment_history'])
 
-            {
-
-                if (Math.abs(bid_item['payment_history'][fund][pp_instance]) > 0 &&
-                    parseInt(pp_instance.replace("PP", "")) > pp_no)
-
-                {
-
-                    pp_no = parseInt(pp_instance.replace("PP", ""));
+//        {
 
 
-                }
+//            for (const pp_instance in bid_item['payment_history'][fund])
+
+//            {
+
+//                if (Math.abs(bid_item['payment_history'][fund][pp_instance]) > 0 &&
+//                    parseInt(pp_instance.replace("PP", "")) > pp_no)
+
+//                {
+
+//                    pp_no = parseInt(pp_instance.replace("PP", ""));
 
 
-            }
-
-        }
+//                }
 
 
-    }
+//            }
 
-    return pp_no + 1
+//        }
+
+
+//    }
+
+//    return pp_no + 1
+
+  return 16
 
 }
 
@@ -205,7 +208,7 @@ function return_pp_history_from_spatial_file(work_type, bid_item_id, unit_price)
 {
 
     var return_object = {};
-    var pp_no_ceiling=  15;
+    var pp_no_ceiling =  latest_pp_no(base_sov);
         
     for (fund of funds)
     

@@ -12,6 +12,8 @@ function qty_table_generator_sw_mains(qty_bid_item) {
 
     var latest_pp = latest_pp_no(base_sov);
 
+
+
     var return_block = 
         
                  '<thead class="qty_thead">\
