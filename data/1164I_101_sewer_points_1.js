@@ -28,13 +28,13 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-73230", "id_b": "1296", "location": "Fronting 789 Andover St (End)", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416995278871184, 37.733313166479569 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-399740", "id_b": "304174", "location": "Fronting 789 Andover St (End)", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416932605195413, 37.733311331956614 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-399740", "id_b": "304174", "location": "Fronting 789 Andover St (End)", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416932605195413, 37.733311331956614 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-296908", "id_b": "256068", "location": "Andover St and Benton Ave Intersection - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41701656367276, 37.733967969030743 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-384624", "id_b": "291741", "location": "Andover St and Benton Ave Intersection - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41688165546276, 37.733972082637358 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-384624", "id_b": "291741", "location": "Andover St and Benton Ave Intersection - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41688165546276, 37.733972082637358 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-296907", "id_b": "256069", "location": "Andover St and Benton Ave Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417033391107225, 37.733887350153637 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-296907", "id_b": "256069", "location": "Andover St and Benton Ave Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417033391107225, 37.733887350153637 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415399", "id_b": "317924", "location": "Ellsworth St and Ogden Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP09": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414847390492454, 37.735973708857316 ] } },
 
@@ -42,11 +42,11 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-22423", "id_b": "26579", "location": "Ellsworth St and Crescent Ave Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414963155339493, 37.734806328317212 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-391436", "id_b": "297665", "location": "Ellsworth St and Ogden Ave Intersection - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414893558918067, 37.736021789557824 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-391436", "id_b": "297665", "location": "Ellsworth St and Ogden Ave Intersection - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414893558918067, 37.736021789557824 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-391437", "id_b": "297664", "location": "Ellsworth St and Ogden Ave Intersection - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414796787642814, 37.736017017706715 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-391437", "id_b": "297664", "location": "Ellsworth St and Ogden Ave Intersection - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414796787642814, 37.736017017706715 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-391438", "id_b": "297663", "location": "Ellsworth St and Ogden Ave Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414914640034027, 37.735941170266933 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-391438", "id_b": "297663", "location": "Ellsworth St and Ogden Ave Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414914640034027, 37.735941170266933 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-24348", "id_b": "23488", "location": "Fronting 16 Lundys Ln (End)", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.417953275368006, 37.745357766964617 ] } },
 
@@ -78,17 +78,17 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-418680", "id_b": "322303", "location": "Coso Ave and Winfield St Intersection - SWC", "type": "CB", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP05": { "SFPW-ESH": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416743931637001, 37.745472293086138 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-50564", "id_b": "162380", "location": "Coso Ave and Winfield St Intersection - SEC", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416648406808378, 37.745450492119538 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-50564", "id_b": "162380", "location": "Coso Ave and Winfield St Intersection - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416648406808378, 37.745450492119538 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-44841", "id_b": "156650", "location": "Coso Ave and Winfield St Intersection - North", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41661139188993, 37.745505610273334 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-44841", "id_b": "156650", "location": "Coso Ave and Winfield St Intersection - North", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.41661139188993, 37.745505610273334 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-25505", "id_b": "23472", "location": "Coso Ave, East of Winfield St Intersection", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416603867902097, 37.745459255235943 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415430", "id_b": "317944", "location": "Aztec St, East of Coso Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.4163990756728, 37.745459218172087 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-49670", "id_b": "162379", "location": "Coso Ave and Aztec St Intersection - East", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416356817856894, 37.745420947904748 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-49670", "id_b": "162379", "location": "Coso Ave and Aztec St Intersection - East", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416356817856894, 37.745420947904748 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-349464", "id_b": "290340", "location": "Coso Ave and Aztec St Intersection - East", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416359852531315, 37.745399667619829 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-349464", "id_b": "290340", "location": "Coso Ave and Aztec St Intersection - East", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.416359852531315, 37.745399667619829 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415431", "id_b": "317943", "location": "Fronting 51 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415830919750576, 37.74549260491068 ] } },
 
@@ -97,6 +97,9 @@ var json_1164I_101_sewer_points_1 = {
 { "type": "Feature", "properties": { "id_a": "N-338803", "id_b": "275899", "location": "Fronting 62 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415327165298095, 37.745526271206117 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-338801", "id_b": "275901", "location": "Fronting 68 Aztec St", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP03": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415259183798966, 37.745504458753125 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-338800", "id_b": "275902", "location": "Aztec St - Dead End Near Stairs", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415245590441401, 37.745526636077422 ] } },
+
 
 { "type": "Feature", "properties": { "id_a": "N-338802", "id_b": "275900", "location": "Bottom of Aztec St Stairs", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": { "SW-04": { "PP04": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415094707307205, 37.74551702105628 ] } },
 
@@ -130,11 +133,11 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-415458", "id_b": "317959", "location": "Peralta St, South of Mullen Ave Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP07": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409066759055492, 37.746339113286574 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-50753", "id_b": "162908", "location": "Mullen Ave and Peralta St Intersection - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408933248701388, 37.74646653002457 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-50753", "id_b": "162908", "location": "Mullen Ave and Peralta St Intersection - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408933248701388, 37.74646653002457 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-24373", "id_b": "23667", "location": "Mullen Ave and Peralta St Intersection - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408929211214357, 37.746396603110441 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-24373", "id_b": "23667", "location": "Mullen Ave and Peralta St Intersection - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408929211214357, 37.746396603110441 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-50752", "id_b": "162909", "location": "Mullen Ave and Peralta St Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409100599390385, 37.746360759373218 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-50752", "id_b": "162909", "location": "Mullen Ave and Peralta St Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.409100599390385, 37.746360759373218 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-415468", "id_b": "317965", "location": "Peralta Ave, West of Florida St Intersection", "type": "MH", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-03": { "PP08": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408943286469793, 37.746693246157477 ] } },
 
@@ -150,7 +153,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-50991", "id_b": "164503", "location": "Peralta Ave and Franconia St Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408468377343794, 37.746864649803527 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-50525", "id_b": "162773", "location": "Peralta Ave, West of Florida St Intersection", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408943842471828, 37.746650812290703 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-50525", "id_b": "162773", "location": "Peralta Ave, West of Florida St Intersection", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408943842471828, 37.746650812290703 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-24347", "id_b": "23490", "location": "Coso Ave, East of Coleridge St Intersection", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.418059864336016, 37.746044873766394 ] } },
 
@@ -170,11 +173,11 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-33612", "id_b": "23512", "location": "Stoneman St between Bonview St and Shotwell St", "type": "MH", "scope": "Abandon (E)", "status": "Pre-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415229838305166, 37.744979109335951 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-67689", "id_b": "162373", "location": "Stoneman St and Shotwell St Intersection - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415044640878705, 37.745062497600102 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-67689", "id_b": "162373", "location": "Stoneman St and Shotwell St Intersection - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415044640878705, 37.745062497600102 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-50085", "id_b": "163495", "location": "Stoneman St and Shotwell St Intersection - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414979307056257, 37.74501150059146 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-50087", "id_b": "163493", "location": "Stoneman St and Shotwell St Intersection - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414880556032585, 37.745005295935229 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-50087", "id_b": "163493", "location": "Stoneman St and Shotwell St Intersection - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414880556032585, 37.745005295935229 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-24266", "id_b": "23673", "location": "Treat Ave - End", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.412360373172049, 37.744651446813428 ] } },
 
@@ -186,7 +189,23 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-24265", "id_b": "23675", "location": "1575 Treat Ave", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "-" }, "geometry": { "type": "Point", "coordinates": [ -122.412444584960284, 37.745529682147449 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-25109", "id_b": "22387-", "location": "Interesection of Treat Ave and Precita Ave", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.412564472842149, 37.746827236564449 ] } }
+{ "type": "Feature", "properties": { "id_a": "N-25109", "id_b": "22387-", "location": "Interesection of Treat Ave and Precita Ave", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.412564472842149, 37.746827236564449 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-337183", "id_b": "272305", "location": "Intersection of 30th St and San Jose Ave - NEC", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423148049565427, 37.742365832200768 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-43329", "id_b": "156654", "location": "Intersection of 30th St and San Jose Ave - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423176264846376, 37.742256383548877 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-337184", "id_b": "272304", "location": "Intersection of 30th St and San Jose Ave - NEC", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423203717552212, 37.742395983316101 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-62349", "id_b": "154973", "location": "Intersection of 30th St and San Jose Ave - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423125553598169, 37.742395078782806 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-55573", "id_b": "170707", "location": "Intersection of Montezuma St and Shotwell St - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415115464098875, 37.746088799047108 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-55572", "id_b": "170,708", "location": "Intersection of Montezuma St and Shotwell St - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415109617689282, 37.746012420008654 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "N-50083", "id_b": "163497", "location": "Intersection of Montezuma St and Shotwell St - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415004128125219, 37.746004782100464 ] } },
+
+{ "type": "Feature", "properties": { "id_a": "unknown_catch_basin_sw_15_001", "id_b": "none", "location": "Parking Area South of Stoneman, at SWC of Shotwell St Intersection", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414944647262644, 37.744977275266919 ] } }
 
 //{ "type": "Feature", "properties": { "id_a": "deletable_010", "id_b": "-", "location": "-", "type": "MH", "scope": "Mortar (E)", "status": "Post-Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.414100138987109, 37.743135605299287 ] } },
 

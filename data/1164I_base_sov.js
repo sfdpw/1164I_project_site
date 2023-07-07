@@ -1048,47 +1048,12 @@
 
  {
   'bid_item': 'SW-27',
-  'worksheet': 0,
+  'worksheet': 2,
   'description': '**CAST IRON WATER TRAP FOR EXISTING CATCH BASIN INCLUDING CLEANOUT CAP (PER SFDPW STANDARD PLAN 87,194) (CONTINGENCY  BID ITEM)',
   'unit': 'EA',
   'contract_qty': 32,
   'unit_price':350,
-  'payment_history': {
-                      'SFPW-ESH': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00,
-				   'PP11':0.00,
-				   'PP12':0.00,
-				   'PP13':0.00,
-				   'PP14':0.00,
-				   'PP15':0.00
-                                   },
-                      'SFPUC-SW': {
-                                   'PP01':0.00,
-                                   'PP02':0.00,
-                                   'PP03':0.00,    
-                                   'PP04':0.00,   
-                                   'PP05':0.00,    
-                                   'PP06':0.00,                               
-                                   'PP07':0.00, 
-                                   'PP08':0.00,                               
-                                   'PP09':0.00,      
-                                   'PP10':0.00,
-				   'PP11':0.00,
-				   'PP12':0.00,
-				   'PP13':0.00,
-				   'PP14':0.00,
-				   'PP15':0.00
-                                   }
-                      }
+  'payment_history': return_pp_history_from_spatial_file(['json_1164I_101_sewer_points_1'], 'SW-27', 350)
   },
 
  {
@@ -1877,7 +1842,7 @@
   'description': 'Sewer Deletion on Eugenia Ave',
   'unit': 'LS',
   'contract_qty': 1,
-  'unit_price': -81993.00,
+  'unit_price': -81933.00,
   'payment_history': {
                       'SFPW-ESH': {
                                    'PP01':0.00,
@@ -1908,7 +1873,7 @@
                                    'PP09':0.00,      
                                    'PP10':0.00,
 				   'PP11':0.00,
-				   'PP12':-81993.00,
+				   'PP12':-81933.00,
 				   'PP13':0.00,
 				   'PP14':0.00,
 				   'PP15':0.00
