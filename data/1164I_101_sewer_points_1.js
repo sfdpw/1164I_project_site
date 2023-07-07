@@ -147,7 +147,7 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-421846", "id_b": "327123", "location": "Peralta Ave and Franconia St Intersection - SWC", "type": "CB", "scope": "Install (N)", "status": "Post-Construction", "pp_history": { "SW-26": { "PP08": { "SFPW-ESH": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408520756397834, 37.746850973763678 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-66224", "id_b": "164504", "location": "Peralta Ave and Franconia St Intersection - North", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.40850434638574, 37.746974924144901 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-66224", "id_b": "164504", "location": "Peralta Ave and Franconia St Intersection - North", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 100/350, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.40850434638574, 37.746974924144901 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-50996", "id_b": "164498", "location": "Peralta Ave and Franconia St Intersection - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": {}, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.408387165267342, 37.74689998840136 ] } },
 
@@ -197,11 +197,11 @@ var json_1164I_101_sewer_points_1 = {
 
 { "type": "Feature", "properties": { "id_a": "N-337184", "id_b": "272304", "location": "Intersection of 30th St and San Jose Ave - NEC", "type": "MH", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423203717552212, 37.742395983316101 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-62349", "id_b": "154973", "location": "Intersection of 30th St and San Jose Ave - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423125553598169, 37.742395078782806 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-62349", "id_b": "154973", "location": "Intersection of 30th St and San Jose Ave - NEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 150/350, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.423125553598169, 37.742395078782806 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-55573", "id_b": "170707", "location": "Intersection of Montezuma St and Shotwell St - NWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 1, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415115464098875, 37.746088799047108 ] } },
 
-{ "type": "Feature", "properties": { "id_a": "N-55572", "id_b": "170,708", "location": "Intersection of Montezuma St and Shotwell St - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415109617689282, 37.746012420008654 ] } },
+{ "type": "Feature", "properties": { "id_a": "N-55572", "id_b": "170,708", "location": "Intersection of Montezuma St and Shotwell St - SWC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-27": { "PP15": { "SFPUC-SW": { "QTY": 100/350, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415109617689282, 37.746012420008654 ] } },
 
 { "type": "Feature", "properties": { "id_a": "N-50083", "id_b": "163497", "location": "Intersection of Montezuma St and Shotwell St - SEC", "type": "CB", "scope": "(E) to Remain", "status": "No Construction", "pp_history": { "SW-0": { "PP0": { "SFPUC-SW": { "QTY": 0, "UNIT": "EA" } } } }, "rlvnt": "none" }, "geometry": { "type": "Point", "coordinates": [ -122.415004128125219, 37.746004782100464 ] } },
 
