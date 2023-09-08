@@ -100,7 +100,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_G-01.html">G-01: Temp. Striping</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_G-01.html">G-01: Temporary Striping</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: Grinding</a>\
